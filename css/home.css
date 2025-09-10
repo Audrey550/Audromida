@@ -272,7 +272,7 @@ main h2{
 }
 
 .project-info p{
-    color: yellow;
+    color: var(--lightpurple);
 }
 
 .project-info img{
