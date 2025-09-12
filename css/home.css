@@ -138,27 +138,13 @@ main h2{
 .aboutMe p{
     line-height: 1.5;
     margin-left: 500px;
-    margin-top: -310px;
+    margin-top: -410px;
     width: 48%;
-}
-
-.school{
-    width: 100%;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.school h3{
-    position: absolute;
-    left: 5%;
-    top: 50%;
-    font-size: 18px;
-    margin: 0;
 }
 
 .school ul{
     list-style-type: disc; /*Zorgt voor bolletjes*/
-    margin-left: 25%;
+    margin-left: 5%;
     padding: 0;
 }
 
@@ -170,18 +156,29 @@ main h2{
 
 .skills{
     width: 100%;
-    margin-bottom: 20px;
     position: relative;
 }
 
-.skills h3{
-    position: absolute;
-    left: 5%;
-    top: 50%;
-    font-size: 18px;
-    margin: 0;
+.school-label-list, .skills-label-icons{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
 }
 
+.school-label-list h3, .skills-label-icons h3{
+    font-size: 18px;
+    margin-top: 50%;
+}
+
+.skills-label-icons .icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-icon{
+    height: auto;
+}
 
 /*Services section*/
 .services{
