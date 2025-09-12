@@ -218,6 +218,10 @@ main h2{
     display: none;
 }
 
+.projects{
+    margin-bottom: 80px;
+}
+
 .projects h2{
     margin-bottom: 30px;
 }
