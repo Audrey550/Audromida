@@ -1,46 +1,56 @@
-//Verkrijg de knoppen en project informatie
 const schoolBtn = document.querySelector('.schoolbtn');
 const personalBtn = document.querySelector('.personalbtn');
 const schoolProjects = document.querySelector('.school-projects');
 const personalProjects = document.querySelector('.personal-projects');
-const schoolProjectInfo = document.querySelectorAll('.school-projects .project-info');
-const personalProjectInfo = document.querySelectorAll('.personal-projects .project-info');
 
-// Event listeners voor de knoppen (School en Personal)
+//Selecteer alle titles van de projecten
+const projectTitles = document.querySelectorAll('.project-title');
+
+//Verberg alle project info elementen
+function hideAllProjectInfo() {
+  const allProjectInfos = document.querySelectorAll('.project-info');
+  allProjectInfos.forEach(info => info.classList.add('hidden'));
+}
+
+//Toon het eerste project info element
+function showFirstProjectInfo(containerSelector) {
+  const firstInfo = document.querySelector(`${containerSelector} .project-info`);
+  if (firstInfo) {
+    firstInfo.classList.remove('hidden');
+  }
+}
+
+//Toon schoolprojecten bij klik
 schoolBtn.addEventListener('click', function(e) {
-    e.preventDefault(); // Voorkom het standaard gedrag
-
-  //Verberg alle projectinfo van de personal projecten
-    personalProjectInfo.forEach(function(projectInfo) {
-      projectInfo.classList.add('hidden');
-    });
-
-  //Toon de school-projecten en verberg de personal projecten
-    schoolProjects.style.display = 'block';
-        personalProjects.style.display = 'none';
-    });
-
-personalBtn.addEventListener('click', function(e) {
-    e.preventDefault(); // Voorkom het standaard gedrag
-
-    //Verberg alle projectinfo van de school projecten
-    schoolProjectInfo.forEach(function(projectInfo) {
-        projectInfo.classList.add('hidden');
-    });
-
-    //Toon de personal-projecten en verberg de school projecten
-    personalProjects.style.display = 'block';
-    schoolProjects.style.display = 'none';
+  e.preventDefault();
+  schoolProjects.style.display = 'block';
+  personalProjects.style.display = 'none';
+  hideAllProjectInfo();
+  showFirstProjectInfo('.school-projects');
 });
 
-//Voeg een click event listener toe aan elk project titel
-const projectTitles = document.querySelectorAll('.project-title');
-projectTitles.forEach(function(title) {
-    title.addEventListener('click', function(e) {
-        e.preventDefault(); // Voorkom het standaard gedrag
-        const projectInfo = this.nextElementSibling; // Verkrijg de bijbehorende project info
+//Toon personal projecten bij klik
+personalBtn.addEventListener('click', function(e) {
+  e.preventDefault();
+  personalProjects.style.display = 'block';
+  schoolProjects.style.display = 'none';
+  hideAllProjectInfo();
+  showFirstProjectInfo('.personal-projects');
+});
 
-        //Toggle de zichtbaarheid van de project info
-        projectInfo.classList.toggle('hidden');
-    });
+//Eventlistener voor elke project title
+projectTitles.forEach(title => {
+  title.addEventListener('click', function(e) {
+    e.preventDefault();
+    hideAllProjectInfo();
+    const projectInfo = this.nextElementSibling;
+    if (projectInfo && projectInfo.classList.contains('project-info')) {
+      projectInfo.classList.remove('hidden');
+    }
+  });
+});
+
+//Bij het laden: Toon schoolprojecten en het eerste project info
+document.addEventListener('DOMContentLoaded', function() {
+  schoolBtn.click();
 });
