@@ -44,13 +44,16 @@ projectTitles.forEach(title => {
     e.preventDefault();
     hideAllProjectInfo();
     const projectInfo = this.nextElementSibling;
-    if (projectInfo && projectInfo.classList.contains('project-info')) {
       projectInfo.classList.remove('hidden');
-    }
   });
 });
 
 //Bij het laden: Toon schoolprojecten en het eerste project info
 document.addEventListener('DOMContentLoaded', function() {
   schoolBtn.click();
+  const firstSchoolInfo = document.querySelector('.school-projects .project-info');
+  if (firstSchoolInfo) {
+    firstSchoolInfo.classList.remove('hidden');
+  }
 });
+
