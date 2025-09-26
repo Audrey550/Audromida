@@ -57,3 +57,19 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+function showTab(tabName, event){
+  const tabs = document.querySelectorAll('.skills-content');
+  const buttons = document.querySelectorAll('.tab-btn');
+
+  tabs.forEach(tab => {
+    tab.classList.add('hidden');
+  });
+
+  buttons.forEach(btn => {
+    btn.classList.remove('active');
+  });
+
+  document.getElementById(tabName).classList.remove('hidden');
+  event.target.classList.add('active');
+
+}
