@@ -188,6 +188,42 @@ main h2{
     margin-top: 30px;
 }
 
+.skills-tabs{
+    margin-top: 20px;
+}
+
+.skills-btns{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-btn{
+    padding: 8px 16px;
+    background-color: var(--darkpurple);
+    border: none;
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab-btn:hover, .tab-btn.active{
+   background-color: var(--white);
+    color: var(--purple);
+}
+
+.skills-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
 .skills-label-icons h3 {
     margin-bottom: 10px;
     font-size: 18px;
@@ -223,12 +259,13 @@ main h2{
 
 /* Skill widths */
 .skill.html { width: 90%; }
-.skill.css { width: 85%; }
-.skill.js { width: 75%; }
-.skill.figma { width: 85%; }
-.skill.blender { width: 70%; }
-.skill.ill { width: 80%; }
-.skill.pho { width: 80%; }
+.skill.css { width: 80%; }
+.skill.js { width: 70%; }
+.skill.php{ width: 60%;}
+.skill.figma { width: 90%; }
+.skill.blender { width: 75%; }
+.skill.ill { width: 70%; }
+.skill.pho { width: 55%; }
 
 /*Services section*/
 .services{
