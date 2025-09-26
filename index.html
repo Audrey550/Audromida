@@ -31,6 +31,7 @@
     </header>
 
     <main>
+        <!-- ABOUT ME SECTION -->
         <section class="aboutMe" id="aboutme">
             <h2>About Me</h2>
             <div class="bio">
@@ -38,6 +39,7 @@
                 </p>
             </div>
             <div class="about-content">
+                <!-- SCHOOL SECTION -->
                 <div class="school">
                     <div class="school-label-list">
                     <h3>School:</h3>
@@ -48,43 +50,59 @@
                     </ul>
                 </div>
 
+                <!--SKILL SECTION-->
                 <div class="skills">
                 <div class="skills-label-icons">
                     <h3>Skills:</h3>
-                    <div class="icons">
-                            <p>HTML</p>
+                    <div class="skills-tabs">
+                        <div class="skills-btns">
+                            <button class="tab-btn active" onclick="showTab('design', event)">Desgin</button>
+                            <button class="tab-btn" onclick="showTab('development', event)">Development</button>
+                        </div>
+
+                        <!--DESIGN SKILLS-->
+                        <div class="skills-content" id="design">
+                            <p>Figma</p>
                             <div class="progress-bar">
-                                <div class="skill html">80%</div>
+                                <div class="skill figma">90%</div>
                             </div>
 
-                              <p>CSS</p>
+                            <p>Blender</p>
+                            <div class="progress-bar">
+                                <div class="skill blender">75%</div>
+                            </div>
+
+                            <p>Illustrator</p>
+                            <div class="progress-bar">
+                                <div class="skill ill">70%</div>
+                            </div>
+
+                            <p>Photoshop</p>
+                            <div class="progress-bar">
+                                <div class="skill pho">55%</div>
+                            </div>
+                        </div>
+
+                        <!--CODE SKILLS-->
+                        <div class="skills-content hidden" id="development">
+                            <p>HTML</p>
+                            <div class="progress-bar">
+                                <div class="skill html">90%</div>
+                            </div>
+
+                            <p>CSS</p>
                             <div class="progress-bar">
                                 <div class="skill css">80%</div>
                             </div>
 
-                              <p>JAVASCRIPT</p>
+                            <p>JAVASCRIPT</p>
                             <div class="progress-bar">
-                                <div class="skill js">80%</div>
+                                <div class="skill js">70%</div>
                             </div>
 
-                              <p>Figma</p>
+                             <p>PHP</p>
                             <div class="progress-bar">
-                                <div class="skill figma">80%</div>
-                            </div>
-
-                              <p>Blender</p>
-                            <div class="progress-bar">
-                                <div class="skill blender">80%</div>
-                            </div>
-
-                              <p>Illustrator</p>
-                            <div class="progress-bar">
-                                <div class="skill ill">80%</div>
-                            </div>
-
-                              <p>Photoshop</p>
-                            <div class="progress-bar">
-                                <div class="skill pho">80%</div>
+                                <div class="skill php">60%%</div>
                             </div>
                         </div>
                     </div>
@@ -93,6 +111,7 @@
         </div>
         </section>
 
+        <!--SERVICES SECTION-->
         <section class="services" id="services">
             <h2>Services</h2>
             <div class="service">
@@ -112,6 +131,7 @@
             </div>
         </section>
 
+        <!--SCHOOL/PERSONAL PROJECT SECTION-->
         <section class="projects" id="projects">
             <h2>Projects</h2>
             <div class="project-btns">
@@ -119,8 +139,9 @@
                 <a href="#" class="personalbtn">Personal</a>
             </div>
             <div class="project-list">
-                <!-- School Projects -->
+                <!-- SCHOOL PROJECTS -->
                 <div class="school-projects">
+                    <!-- YOUTHAWEAR -->
                 <a href="#" class="project-title">YouthAWear</a>
                 <div class="project-info hidden">
                     <h2>YouthAWear</h2>
@@ -141,6 +162,7 @@
                     </div>
                 </div>
 
+                <!-- 3D FOODKIOSK -->
                 <a href="#" class="project-title">3D Foodkiosk</a>
                 <div class="project-info hidden">
                     <h2>3D Foodkiosk</h2>
@@ -161,6 +183,7 @@
                     </div>
                 </div>
 
+                <!-- XD/ iXD STICKERS -->
                 <a href="#" class="project-title">XD/iXD Stickers</a>
                 <div class="project-info hidden">
                     <h2>XD/iXD Stickers</h2>
@@ -175,6 +198,7 @@
                     </div>
                 </div>
 
+                <!-- ZUIDERBAD -->
                 <a href="#" class="project-title">Zuiderbad</a>
                 <div class="project-info hidden">
                     <h2>Zuiderbad</h2>
@@ -196,16 +220,18 @@
                 </div>
             </div>
 
-                <!-- Personal Projects -->
+                <!-- PERSONAL PROJECTS -->
                 <div class="personal-projects">
                 <a href="#" class="project-title">Tunturi</a>
                 <div class="project-info hidden">
+                <!-- TUNTURI - FITNESS WEBSITE -->
                     <h2>Tunturi</h2>
                     <p><strong>Design:</strong> None</p>
                     <p><strong>Development:</strong> HTML, CSS</p>
                     <p><strong>Description:</strong> For this personal project, I aimed to recreate the Tunturi home page using HTML and CSS. The goal was to practice my front-end development skills and create a responsive layout.</p>
                 </div>
 
+                <!-- PROJECT 2 -->
                 <a href="#" class="project-title">Project 2</a>
                 <div class="project-info hidden">
                     <h2>Project 2</h2>
@@ -214,6 +240,7 @@
                     <p><strong>Description:</strong> Project 2 is a fictional project that focuses on creating customizable stickers for digital communication.</p>
                 </div>
 
+                <!-- PROJECT 3 -->
                 <a href="#" class="project-title">Project 3</a>
                 <div class="project-info hidden">
                     <h2>Project 3</h2>
@@ -225,6 +252,7 @@
             </div>
         </section>
 
+            <!-- CONTACT SECTION -->
             <section class="contact" id="contact">
                 <h2>Contact</h2>
                 <div class="contact-info">
@@ -244,6 +272,7 @@
     </main>
 
     <footer>
+        <!-- FOOTER SECTION -->
         <p>&copy; 2025 Audromida Designs. All rights reserved.</p>
     </footer>
 
