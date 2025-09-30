@@ -1,11 +1,26 @@
 :root{
     --white: #ffffff;
     --black: #0000;
+
+    /*Main website colors*/
     --pink: #FF398F;
     --purple: #420D4A;
     --lightpurple: #9d849d;
     --darkpurple: #210535;
     --otherpurple: #3A0A35;
+
+    /*Dev skills*/
+    --HTML:#E34F26;
+    --CSS: #1572B6;
+    --JavaScript: #F7DF1E;
+    --PHP: #777bb4;
+
+    /*Design skills*/
+    --Figma:#F24E1E;
+    --Blender: #f5792a;
+    --Illustrator: #ff9a00;
+    --Photoshop: #31a8ff;
+
 }
 
 *{
@@ -248,7 +263,7 @@ main h2{
 
 .skill {
     height: 100%;
-    background-color: var(--lightpurple);
+    background-color: #F24E1E;
     text-align: right;
     padding-right: 10px;
     line-height: 20px;
