@@ -263,7 +263,6 @@ main h2{
 
 .skill {
     height: 100%;
-    background-color: #F24E1E;
     text-align: right;
     padding-right: 10px;
     line-height: 20px;
@@ -273,15 +272,17 @@ main h2{
     border-radius: 20px;
 }
 
+
+
 /* Skill widths */
-.skill.html { width: 90%; }
-.skill.css { width: 80%; }
-.skill.js { width: 70%; }
-.skill.php{ width: 60%;}
-.skill.figma { width: 90%; }
-.skill.blender { width: 75%; }
-.skill.ill { width: 70%; }
-.skill.pho { width: 55%; }
+.skill.html { width: 90%; background-color: #e34f26;}
+.skill.css { width: 80%; background-color: #1572b6;}
+.skill.js { width: 70%; background-color: #f7df1e;}
+.skill.php{ width: 60%; background-color: #777bb4;}
+.skill.figma { width: 90%; background-color: #f24e1e;}
+.skill.blender { width: 75%; background-color: #f5792a;}
+.skill.ill { width: 70%; background-color: #ff9a00;}
+.skill.pho { width: 55%; background-color: #31a8ff;}
 
 /*Services section*/
 .services{
