@@ -220,6 +220,7 @@ main h2{
     min-width: 300px;
     color: var(--white);
     background-color: transparent;
+    margin-bottom: 20px;
 }
 
 .bio p {
