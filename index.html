@@ -17,15 +17,6 @@
     })(window,document,'script','dataLayer','GTM-58KT8Q2W');</script>
     <!-- End Google Tag Manager -->
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3P761FPP55"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-3P761FPP55');
-    </script>
-
     <!-- Meta Description -->
     <meta name="description" content="My name is Audrey, a 3rd years Digital Experience Design student with a huge passion for design."/>
     <meta name="author" content="Audrey Kudjo"/>
@@ -64,6 +55,16 @@
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3P761FPP55"></script>
+ <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3P761FPP55');
+</script>
+
 <body>
     <nav class="navBar">
         <div class="navLogo">Audromida</div>
@@ -282,19 +283,41 @@
                     <h2>Zuiderbad</h2>
                     <p><strong>Design:</strong> Figma, Blender, Illustrator</p>
                     <p><strong>Development:</strong> HTML, CSS, JavaScript & Three.js</p>
-                    <p><strong>Description:</strong> Last schoolyear we've been given the opportunity to work with a real client! Our class got devided in 3 groups and each group was given a different client. My group worked with <a href="https://www.zuiderbad.be/">Zuiderbad</a>, a horeca and event bureau in Mechelen. <br> They asked us to create an online map so people could navigate themselves better around the domain. My role within the project was to design the UI of the map and how it would look integrated on the existing website. </p>
+                    <p><strong>Description:</strong> Last schoolyear we've been given the opportunity to work with a real client! Our class got devided in 3 groups and each group was given a different client. My group worked with <a href="https://www.zuiderbad.be/" class="infoLinks">Zuiderbad</a>, a horeca and event bureau in Mechelen. <br> They asked us to create an online map so people could navigate themselves better around the domain. My role within the project was to design the UI of the map and how it would look integrated on the existing website. </p>
+                    <p><strong>Meet the team:</strong><a href="#" class="infoLinks">  Ben Devos</a> en <a href="#" class="infoLinks">Sam Pittois</a></p>
 
                     <div class="carousel">
                         <div class="carousel-images">
-                            <img src="#" alt="zuiderbadhome" class="carousel-item">
-                            <img src="#" alt="zuiderbadfacilities" class="carousel-item">
-                            <img src="#" alt="zuiderbadcontact" class="carousel-item">
+                            <img src="img/zuiderbadLoadPage.png" alt="zuiderbadhome" class="carousel-item">
+                            <img src="img/zuiderbadEhboPin.png" alt="zuiderbadfacilities" class="carousel-item">
                             <video width="320" height="240" controls>
                                 <source src="#" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <!--Modal voor Ben Devos-->
+            <div id="modal-ben" class="modal">
+                <div class="modalContent">
+                    <span class="close" data-modal="modal-ben">&times;</span>
+                    <h3>Ben Devos</h3>
+                    <p><strong>Job description</strong> Backend Developer</p>
+                    <p><strong>Feedback:</strong> I loved this project!</p>
+                    <p><strong>Check out their work:</strong><a href="#" target="_blank">Portfolio</a></p>
+                </div>
+            </div>
+
+               <!--Modal voor Sam Pittois-->
+            <div id="modal-sam" class="modal">
+                <div class="modalContent">
+                    <span class="close" data-modal="modal-sam">&times;</span>
+                    <h3>Sam Pittois</h3>
+                    <p><strong>Job description</strong> 3D Designer</p>
+                    <p><strong>Feedback:</strong> I loved working in this team!</p>
+                    <p><strong>Check out her work:</strong><a href="#" target="_blank">Portfolio</a></p>
                 </div>
             </div>
 
@@ -356,5 +379,30 @@
     </footer>
 
     <script src="home.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            //Open modal if you click on a name
+            document.querySelectorAll('.infoLinks').forEach(link => {
+                link.addEventListener('click', function(e){
+                    const name = this.textContent.trim().toLowerCase();
+                    if(name.includes('ben devos')) {
+                        e.preventDefault();
+                        document.getElementById('modal-ben').style.display = 'block';
+                    } else if (name.includes('sam pittois')) {
+                        e.preventDefault();
+                        document.getElementById('modal-sam').style.display = 'block';
+                    }
+                });
+            });
+
+            //Close modal if you click on the X
+            document.querySelectorAll('.close').forEach(closeBtn => {
+                closeBtn.addEventListener('click', function(){
+                    const modalId = this.getAttribute('data-modal');
+                    document.getElementById(modalId).style.display = 'none';
+                });
+            });
+        });
+    </script>
 </body>
 </html>
