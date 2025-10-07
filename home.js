@@ -85,3 +85,59 @@ hamburger.addEventListener('click', function(){
   hamburger.classList.toggle('open')
   navLinks.classList.toggle('active');
 });
+
+
+//Modals voor Ben & Sam
+document.addEventListener('DOMContentLoaded', () => {
+//Open modal als je op een naam klikt 
+  document.querySelectorAll('.infoLinks').forEach(link => {
+    link.addEventListener('click', function(e){
+      const name = this.textContent.trim().toLowerCase();
+      if(name.includes('ben devos')) {
+      e.preventDefault();
+      document.getElementById('modal-ben').style.display = 'block';
+      } else if (name.includes('sam pittois')) {
+      e.preventDefault();
+      document.getElementById('modal-sam').style.display = 'block';
+      }
+    });
+  });
+
+//Sluit de modal als je op de X klikt
+  document.querySelectorAll('.close').forEach(closeBtn => {
+    closeBtn.addEventListener('click', function(){
+      const modalId = this.getAttribute('data-modal');
+      document.getElementById(modalId).style.display = 'none';
+      });
+    });
+  });
+
+  //Lightbox voor de carousel
+  const lightbox = document.getElementById('lightBox');
+  const lightboxContent = document.getElementById('lightboxContent');
+  const closeBtn = document.getElementById('closeLightBox');
+
+  document.querySelectorAll('.carousel-item, .carousel video').forEach(el => {
+    el.addEventListener('click', function(){
+      lightboxContent.innerHTML = ''; //Verwijder vorige content
+      if(el.tagName.toLowerCase() === 'img'){
+        const img = document.createElement('img');
+        img.src = el.src;
+        img.alt = el.alt;
+        lightboxContent.appendChild(img);
+      } else if (el.tagName.toLowerCase() === 'video'){
+          const source = el.querySelector('source');
+          const video = document.createElement('video');
+          video.src = source ? source.src : el.src;
+          video.controls = true;
+          video.autoplay = true;
+          lightboxContent.appendChild(video);
+      }
+      lightbox.style.display = 'flex';
+    });
+  });
+
+  closeBtn.addEventListener('click', function(){
+    lightbox.style.display = 'none';
+    lightboxContent.innerHTML = ''; //Cleanup
+});

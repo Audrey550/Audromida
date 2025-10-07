@@ -306,7 +306,7 @@
                     <h3>Ben Devos</h3>
                     <p><strong>Job description</strong> Backend Developer</p>
                     <p><strong>Feedback:</strong> I loved this project!</p>
-                    <p><strong>Check out their work:</strong><a href="#" target="_blank">Portfolio</a></p>
+                    <p><strong>Check out their work:</strong><a href="#" target="_blank" class="infoLinks"> Portfolio</a></p>
                 </div>
             </div>
 
@@ -378,31 +378,12 @@
         <p>&copy; 2025 Audromida Designs. All rights reserved.</p>
     </footer>
 
-    <script src="home.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            //Open modal if you click on a name
-            document.querySelectorAll('.infoLinks').forEach(link => {
-                link.addEventListener('click', function(e){
-                    const name = this.textContent.trim().toLowerCase();
-                    if(name.includes('ben devos')) {
-                        e.preventDefault();
-                        document.getElementById('modal-ben').style.display = 'block';
-                    } else if (name.includes('sam pittois')) {
-                        e.preventDefault();
-                        document.getElementById('modal-sam').style.display = 'block';
-                    }
-                });
-            });
+    <!--Lightbox-->
+    <div class="lightBox" id="lightBox">
+        <span class="close-lightbox" id="closeLightBox">&times;</span>
+        <span class="lightbox-content" id="lightboxContent"></span>
+    </div>
 
-            //Close modal if you click on the X
-            document.querySelectorAll('.close').forEach(closeBtn => {
-                closeBtn.addEventListener('click', function(){
-                    const modalId = this.getAttribute('data-modal');
-                    document.getElementById(modalId).style.display = 'none';
-                });
-            });
-        });
-    </script>
+    <script src="home.js"></script>
 </body>
 </html>
