@@ -4,7 +4,7 @@
     --body-font: 'Manrope', sans-serif;
 
     --white: #ffffff;
-    --black: #0000;
+    --black: #000000;
 
     /*Main website colors*/
     --pink: #FF398F;
@@ -70,6 +70,22 @@ h3, p, a{
 .navBar a:hover{
     color: var(--lightpurple);
     transform: scale(1.1);
+}
+
+.hamburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    padding: 10px;
+    z-index: 999;
+}
+
+.hamburger span{
+    width: 25px;
+    height: 3px;
+    background-color: var(--white);
+    transition: all 0.3s ease;
 }
 
 /*Header*/
@@ -544,4 +560,81 @@ footer{
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/*Mobile layout*/
+@media (max-width: 768px){
+    .hero {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .hero-image img{
+        margin-top: 20px;
+        max-width: 250px;
+    }
+
+    .navBar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .navBar a{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    main{
+        padding: 10px;
+    }
+
+    .bio p{
+        font-size: 14px;
+    }
+
+    .project-info img{
+        float: none;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .carousel-item{
+        width: 100%;
+    }
+
+    .hero-btns{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hamburger{
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    .navBar .nav-links{
+        display: none;
+        flex-direction: column;
+        background-color: var(--darkpurple);
+        position: absolute;
+        padding: 10px 0;
+        top: 60px;
+        left: 0;
+        z-index: 998;
+    }
+
+    .navBar .nav-links.show{
+        display: flex;
+    }
+
+    .navBar .nav-links a{
+        text-align: center;
+        padding: 15px;
+        font-size: 18px;
+    }
 }
