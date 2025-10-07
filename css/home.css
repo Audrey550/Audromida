@@ -52,19 +52,33 @@ h3, p, a{
 
 /*Navigation bar*/
 .navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background-color: var(--darkpurple);
     position: relative;
-    max-width: 100%;
-    height: 50px;
-    margin-top: 20px;
+    z-index: 999;
+}
+
+ .navLogo{
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.navLinks{
+    display: flex;
+    gap: 30px;
 }
 
 .navBar a{
-    display: inline-block;
     text-decoration: none;
     color: var(--white);
-    padding: 15px 20px;
     font-size: 18px;
     font-weight: bold;
+    padding: 10px;
 }
 
 .navBar a:hover{
@@ -72,20 +86,19 @@ h3, p, a{
     transform: scale(1.1);
 }
 
+/*Hamburger menu*/
 .hamburger{
     display: none;
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
-    padding: 10px;
-    z-index: 999;
 }
 
 .hamburger span{
     width: 25px;
     height: 3px;
     background-color: var(--white);
-    transition: all 0.3s ease;
+    transition: 0.3s ease;
 }
 
 /*Header*/
@@ -576,15 +589,48 @@ footer{
     }
 
     .navBar{
-        display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        height: auto;
+        justify-content: space-between;
+        padding: 10px 20px;
     }
 
     .navBar a{
         padding: 10px;
         font-size: 16px;
+    }
+
+    .navLinks{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        background-color: var(--darkpurple);
+    }
+
+    .navLinks a{
+        padding: 10px 20px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .navLinks.active{
+        display: flex;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+    .hamburger.open span:nth-child(1){
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.open span:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.open span:nth-child(3){
+        transform: rotate(-45deg) translate(5px, -5px);
     }
 
     main{
@@ -608,33 +654,5 @@ footer{
     .hero-btns{
         flex-direction: column;
         gap: 10px;
-    }
-
-    .hamburger{
-        display: flex;
-        position: absolute;
-        top: 10px;
-        right: 20px;
-    }
-
-    .navBar .nav-links{
-        display: none;
-        flex-direction: column;
-        background-color: var(--darkpurple);
-        position: absolute;
-        padding: 10px 0;
-        top: 60px;
-        left: 0;
-        z-index: 998;
-    }
-
-    .navBar .nav-links.show{
-        display: flex;
-    }
-
-    .navBar .nav-links a{
-        text-align: center;
-        padding: 15px;
-        font-size: 18px;
     }
 }
