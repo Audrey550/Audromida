@@ -1,0 +1,80 @@
+:root{
+    /*FONTS*/
+    --heading-font: 'Sora', sans-serif;
+    --body-font: 'Manrope', sans-serif;
+
+    --white: #ffffff;
+    --black: #000000;
+
+    /*Main website colors*/
+    --pink: #FF398F;
+    --purple: #420D4A;
+    --lightpurple: #9d849d;
+    --darkpurple: #210535;
+    --otherpurple: #3A0A35;
+
+    /*Dev skills*/
+    --HTML:#E34F26;
+    --CSS: #1572B6;
+    --JavaScript: #F7DF1E;
+    --PHP: #777bb4;
+
+    /*Design skills*/
+    --Figma:#F24E1E;
+    --Blender: #f5792a;
+    --Illustrator: #ff9a00;
+    --Photoshop: #31a8ff;
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.blog{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.blog h2{
+    color: var(--pink);
+    margin-bottom: 30px;
+}
+
+.blogPost{
+    background-color: var(--purple);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.blogPost h3{
+    font-size: 14px;
+    color: var(--lightpurple);
+    margin-bottom: 15px;
+}
+
+.blogPost p{
+    color: var(--white);
+    line-height: 1.6;
+}
+
+.blogPost a{
+    color: var(--pink);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blogPost a:hover{
+    text-decoration: underline;
+}
+
+body.blogPage .blogLink{
+    display: none;
+}
