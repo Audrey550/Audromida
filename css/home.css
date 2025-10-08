@@ -670,6 +670,8 @@ footer{
     width: 100%;
 }
 
+/*Place code for Daisy animation here*/
+
 /*Mobile layout*/
 @media (max-width: 768px){
     .hero {
