@@ -141,3 +141,37 @@ document.addEventListener('DOMContentLoaded', () => {
     lightbox.style.display = 'none';
     lightboxContent.innerHTML = ''; //Cleanup
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const latestBlogContainer = document.getElementById('latestBlog');
+  if(!latestBlogContainer) return;
+
+  fetch('blog.html')
+  .then(response => response.text())
+  .then(htmlString => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(htmlString, 'text/html');
+
+    const firstPost = doc.querySelector('.blogPost');
+    if(firstPost){
+        const title = firstPost.querySelector('h3')?.innerText || 'Untitled';
+        const date = firstPost.querySelector('.date')?.innerText || '';
+        const paragraphs = firstPost.querySelectorAll('p');
+        const excerpt = paragraphs.length > 1 ? paragraphs[1].innerText : '';
+        const link = firstPost.querySelector('a')?.getAttribute('href') || 'blog.html';
+
+        latestBlogContainer.innerHTML = `
+        <h2>Blog</h2>
+        <article class="blogPreview">
+          <h3>${title}</h3>
+          <p class="date">${date}</p>
+          <p>${excerpt}</p>
+          <a href= "blog.html">${link === '#' ? 'Read more ->' : 'Read more ->'}</a>
+        </article>
+      `;
+    }
+  })
+  .catch(error => {
+    console.error('Fout bij het laden van de laatste blogpost', error);
+  });
+});
