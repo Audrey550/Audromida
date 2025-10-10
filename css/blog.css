@@ -80,7 +80,7 @@ body.blogPage .blogLink{
 }
 
 footer{
- 
+    background-color: var(--purple);
     position: relative;
     overflow: hidden;
 }
@@ -95,6 +95,7 @@ footer{
     left: 0;
     bottom: 15px;
     animation: daisyWalk 0.5s steps(2) infinite, walkAcross 20s linear infinite;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
 }
 
 @keyframes daisyWalk {
