@@ -78,3 +78,33 @@ html{
 body.blogPage .blogLink{
     display: none;
 }
+
+footer{
+ 
+    position: relative;
+    overflow: hidden;
+}
+
+/*Daisy footer animation*/
+.daisyWalk{
+    background: transparent url(../animation-assets/DaisyWalk.png);
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 51px;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    animation: daisyWalk 0.5s steps(2) infinite, walkAcross 20s linear infinite;
+}
+
+@keyframes daisyWalk {
+    from {background-position: 0 0;}
+    to {background-position: -128px 0;}
+}
+
+@keyframes walkAcross {
+    0% {left: -70px; transform: scale(1);}
+    50%{left: 100%; transform: scale(1);}
+    50.01% {left: -70px; transform: scale(-1);}
+    100% {left: -70px; transform: scale(-1);}
+}
