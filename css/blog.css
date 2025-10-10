@@ -66,46 +66,59 @@ html{
 }
 
 .blogPost a{
-    color: var(--pink);
+    color: var(--white);
     text-decoration: none;
     font-weight: bold;
 }
 
 .blogPost a:hover{
-    text-decoration: underline;
+    border-bottom: 2px solid var(--white);
+    padding-bottom: 3.2px;
 }
 
-body.blogPage .blogLink{
+body.blogPage .blogLink, .singleBlogPost .blogLink{
     display: none;
 }
 
+
+/*A full blog post*/
+.fullPost{
+    background-color: var(--purple);
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 60px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.fullPost h2{
+    color: var(--pink);
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.fullPost .date{
+    color: var(--white);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.fullPost p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: lightgrey;
+    margin-bottom: 20px;
+}
+
+.fullPost img{
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/*Footer*/
 footer{
     background-color: var(--purple);
     position: relative;
     overflow: hidden;
-}
-
-/*Daisy footer animation*/
-.daisyWalk{
-    background: transparent url(../animation-assets/DaisyWalk.png);
-    background-repeat: no-repeat;
-    width: 64px;
-    height: 51px;
-    position: absolute;
-    left: 0;
-    bottom: 15px;
-    animation: daisyWalk 0.5s steps(2) infinite, walkAcross 20s linear infinite;
-    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
-}
-
-@keyframes daisyWalk {
-    from {background-position: 0 0;}
-    to {background-position: -128px 0;}
-}
-
-@keyframes walkAcross {
-    0% {left: -70px; transform: scale(1);}
-    50%{left: 100%; transform: scale(1);}
-    50.01% {left: -70px; transform: scale(-1);}
-    100% {left: -70px; transform: scale(-1);}
 }
