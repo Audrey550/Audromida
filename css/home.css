@@ -827,4 +827,8 @@ footer{
         flex-direction: column;
         gap: 10px;
     }
+
+    .sideImgContainer{
+        display: none;
+    }
 }

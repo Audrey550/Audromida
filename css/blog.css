@@ -116,6 +116,29 @@ body.blogPage .blogLink, .singleBlogPost .blogLink{
     margin: 20px 0;
 }
 
+/*Floating avatar side image*/
+.sideImgContainer{
+    position: fixed;
+    top: 120px;
+    left: 40px;
+    width: 220px;
+    z-index: 1000;
+    animation: floatingAvatar 3s ease-in-out infinite;
+}
+
+@keyframes floatingAvatar {
+    0% {transform:  translateY(0);}
+    50% {transform: translateY(-10px);}
+    100% {transform: translateY(0);}
+}
+
+.sideImgContainer img{
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
+}
+
+
 /*Footer*/
 footer{
     background-color: var(--purple);
