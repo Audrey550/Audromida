@@ -243,6 +243,21 @@ main h2{
     gap: 40px;
 }
 
+/* Bio */
+.bio {
+    flex: 1;
+    min-width: 300px;
+    color: var(--white);
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.bio p {
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: justify;
+}
+
 #latestBlog{
     margin-bottom: 80px;
     margin: 60px auto;
@@ -271,13 +286,14 @@ main h2{
 }
 
 .blogPreview .date{
-    font-size: 14px;
+    font-size: 16px;
     color: lightgrey;
     margin-bottom: 10px;
 }
 
 .blogPreview p {
     color: var(--white);
+    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -295,24 +311,10 @@ main h2{
     text-decoration: underline;
 }
 
-/* Bio */
-.bio {
-    flex: 1;
-    min-width: 300px;
-    color: var(--white);
-    background-color: transparent;
-    margin-bottom: 20px;
-}
-
-.bio p {
-    line-height: 1.6;
-    font-size: 16px;
-    text-align: justify;
-}
-
 /* Courses + Skills links */
 .courses {
     flex: 1;
+    font-size: 18px;
     background-color: var(--purple);
     padding: 30px;
     padding-bottom: 50px;
@@ -340,13 +342,13 @@ main h2{
 
 .course li {
     margin-bottom: 16px;
-    font-size: 16px;
     line-height: 1.6;
 }
 
 /* Skills */
 .skills {
     margin-top: 30px;
+    font-size: 18px;
 }
 
 .skills-tabs{
@@ -361,6 +363,7 @@ main h2{
 
 .tab-btn{
     padding: 8px 16px;
+    font-size: 16px;
     background-color: var(--darkpurple);
     border: none;
     color: var(--white);
@@ -371,7 +374,7 @@ main h2{
 }
 
 .tab-btn:hover, .tab-btn.active{
-   background-color: var(--white);
+    background-color: var(--white);
     color: var(--purple);
 }
 
@@ -412,7 +415,7 @@ main h2{
     padding-right: 10px;
     line-height: 20px;
     color: var(--darkpurple);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 20px;
 }
@@ -609,6 +612,7 @@ main h2{
     padding: 0.5rem 1rem;
     text-decoration: none;
     background-color: var(--purple);
+    font-size: 18px;
     color: var(--white);
     margin-right: 1rem;
     border-radius: 25px;
