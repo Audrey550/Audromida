@@ -143,7 +143,7 @@ body.blogPage .blogLink, .singleBlogPost .blogLink{
 .waveImgContainer{
     position: fixed;
     top: 150px;
-    left: calc(50% - 700px); /*50% = het midden van het scherm, 460 = de afstand tot .fullPost*/
+    left: calc(50% - 675px); /*50% = het midden van het scherm, 460 = de afstand tot .fullPost*/
     width: 220px;
     z-index: 900;
     filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
