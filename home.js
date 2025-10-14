@@ -60,22 +60,41 @@ if(schoolBtn && personalBtn && schoolProjects && personalProjects){
   });
 }
 
+//SKILLS SECTIE
 function showTab(tabName, event){
-  const tabs = document.querySelectorAll('.skills-content');
-  const buttons = document.querySelectorAll('.tab-btn');
+  const tabContent = document.getElementById(tabName);
+  if(!tabContent) return;
 
-  tabs.forEach(tab => {
-    tab.classList.add('hidden');
-  });
+  //Vind de juiste groep van tab-knoppen en content
+  const tabsGroup = tabContent.closest('.skills-tabs');
+  const allTabs = tabsGroup.querySelectorAll('.skills-content');
+  const allButtons = tabsGroup.querySelectorAll('.tab-btn');
 
-  buttons.forEach(btn => {
-    btn.classList.remove('active');
-  });
+  //Verberg alle content in deze groep
+  allTabs.forEach(tab => tab.classList.add('hidden'));
 
-  document.getElementById(tabName).classList.remove('hidden');
-  event.target.classList.add('active');
+  //Verwijder active class van alle knoppen in deze groep
+  allButtons.forEach(btn => btn.classList.remove('active'));
 
+  //Toon de gekozen tab en activeer de knop
+  tabContent.classList.remove('hidden');
+
+  //Activeer de juiste knop
+  if (trigger instanceof Event) {
+    trigger.target.classList.add('active');
+  } else if (trigger instanceof HTMLElement) {
+    trigger.classList.add('active');
+  }
 }
+
+  document.addEventListener('DOMContentLoaded', () => {
+  //Activeer standaard "social" (soft skills)
+  showTab('social', document.querySelector('button[onclick*="social"]'));
+
+  //Activeer standaard "design" (hard skills)
+  showTab('design', document.querySelector('button[onclick*="design"]'));
+
+});
 
 //Hamburger menu
 const hamburger = document.getElementById('hamburger');
