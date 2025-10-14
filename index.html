@@ -132,7 +132,50 @@
                 <!--SKILL SECTION-->
                 <div class="skills">
                 <div class="skills-label-icons">
-                    <h3>Skills:</h3>
+                    <!--SOFT SKILLS-->
+                    <h3>Soft Skills:</h3>
+                    <div class="skills-tabs">
+                        <div class="skills-btns">
+                            <button class="tab-btn active"
+                            onclick="showTab('social', event)">Sociale</button>
+                            <button class="tab-btn" onclick="showTab('personal', event)">Personal</button>
+                            <button class="tab-btn" onclick="showTab('cognitive', event)">Cognitive</button>
+                        </div>
+
+                        <!--SOCIAL SKILLS-->
+                         <div class="skills-content" id="social">
+                            <ul>
+                                <li>Empathy</li>
+                                <li>Collaborating</li>
+                                <li>Listening</li>
+                                <li>Caring</li>
+                                <li>Enthusiastic</li>
+                            </ul>
+                        
+                        </div>
+
+                        <!--PERSONAL SKILLS-->
+                        <div class="skills-content hidden" id="personal">
+                            <ul>
+                                <li>Responsible</li>
+                                <li>Perseverance</li>
+                                <li>Punctual</li>
+                                <li>Perfectionist</li>
+                            </ul>
+                        </div>
+
+                        <!--COGNITIVE SKILLS-->
+                        <div class="skills-content hidden" id="cognitive">
+                            <ul>
+                                <li>Creative Thinking</li>
+                                <li>Critical Thinking</li>
+                                <li>Studious</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--HARD SKILLS-->
+                    <h3>Hard Skills:</h3>
                     <div class="skills-tabs">
                         <div class="skills-btns">
                             <button class="tab-btn active" onclick="showTab('design', event)">Design</button>
@@ -143,22 +186,22 @@
                         <div class="skills-content" id="design">
                             <p>Figma</p>
                             <div class="progress-bar">
-                                <div class="skill figma">90%</div>
+                                <div class="skill figma"></div>
                             </div>
 
                             <p>Blender</p>
                             <div class="progress-bar">
-                                <div class="skill blender">75%</div>
+                                <div class="skill blender"></div>
                             </div>
 
                             <p>Illustrator</p>
                             <div class="progress-bar">
-                                <div class="skill ill">70%</div>
+                                <div class="skill ill"></div>
                             </div>
 
                             <p>Photoshop</p>
                             <div class="progress-bar">
-                                <div class="skill pho">55%</div>
+                                <div class="skill pho"></div>
                             </div>
                         </div>
 
@@ -166,22 +209,22 @@
                         <div class="skills-content hidden" id="development">
                             <p>HTML</p>
                             <div class="progress-bar">
-                                <div class="skill html">90%</div>
+                                <div class="skill html"></div>
                             </div>
 
                             <p>CSS</p>
                             <div class="progress-bar">
-                                <div class="skill css">80%</div>
+                                <div class="skill css"></div>
                             </div>
 
                             <p>JAVASCRIPT</p>
                             <div class="progress-bar">
-                                <div class="skill js">70%</div>
+                                <div class="skill js"></div>
                             </div>
 
                              <p>PHP</p>
                             <div class="progress-bar">
-                                <div class="skill php">60%</div>
+                                <div class="skill php"></div>
                             </div>
                         </div>
                     </div>

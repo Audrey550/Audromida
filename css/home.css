@@ -406,7 +406,6 @@ main h2{
     height: 20px;
 }
 
-
 .skill {
     height: 100%;
     text-align: right;
@@ -418,7 +417,7 @@ main h2{
     border-radius: 20px;
 }
 
-/* Skill widths and colors */
+/* Hard skills widths and colors */
 .skill.html { width: 90%; background-color: #e34f26;}
 .skill.css { width: 80%; background-color: #1572b6;}
 .skill.js { width: 70%; background-color: #f7df1e;}
