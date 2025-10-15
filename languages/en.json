@@ -1,0 +1,175 @@
+{
+    "nav":{
+        "logo": "About me",
+        "blog": "Blog",
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Hey, I am Audrey 👋🏽",
+        "subtitle": "Frontend Designer/ Developer",
+        "description": "I can help you design and build unique and user-friendly websites your users will love!",
+        "contactBtn": "Get in touch",
+        "projectBtn": "Browse Projects"
+    },
+    "about": {
+        "title": "About me",
+        "bio": "Hey there! I'm Audrey, a 28 year old Digital Experience Design student based in Belgium with a big passion for all things creative. Growing up, I spent most of my time drawing, painting, and crafting - heavily inspired by the cartoons I loved. People always told me to do something with my art, but I wasn't sure what that meant. After highschool, I put creativity aside and worked in retail... Until Covid-19 hit. During lockdown, I reconnected with my creative side - and stumbled upon a YouTube tutorial about coding. That was the moment it all clicked! I'd found a way to combine creativity with technoligy. Today, I specialize in front-end development using HTML, CSS and JavaScript to build responsive, user-friendly websites. I design using Figma, Illustrator and Blender, and I've explored some backend basics to better understand full workflows and work more effectively in teams. I love experimenting with new tools and always try to bring a fresh skill into every project - wether it's for school or personal growth. I'm currently open to intership opportunities where I can grow, collaborate, and contribute to real-world digital experiences."
+    },
+    "courses": {
+        "title": "Courses"
+    },
+    "skills": {
+        "soft": {
+            "title": "Soft Skills:",
+            "socialBtn": "Sociale",
+            "personalBtn": "Personal",
+            "cognitiveBtn": "Cognitive",
+            "social": {
+                "emp": "Empathy",
+                "collab": "Collaborating",
+                "listen": "Listening",
+                "caring": "Caring",
+                "enth": "Enthusiastic"
+            },
+            "personal": {
+                "resp": "Responsible",
+                "pers": "Perseverance",
+                "punct": "Punctual",
+                "perf": "Perfectionist"
+            },
+            "cognitive": {
+                "creative": "Creative Thinking",
+                "critical": "Critical Thinking",
+                "studious": "Studious"
+            }
+        },
+        "hard": {
+            "title": "Hard Skills:",
+            "designBtn": "Design",
+            "devBtn": "Development"
+        }
+    },
+    "services": {
+        "title": "Services",
+        "uiux":{
+            "title": "UI/ UX Design:",
+            "desc": "I create user-friendly designs that are both easy to use and visually appealing."
+        },
+        "frontend": {
+            "title": "Frontend Development",
+            "desc": "I build responsive, fast-loading websites and apps using HTML, CSS, and JavaScript."
+        },
+        "3d": {
+            "title": "3D Design:",
+            "desc": ">I create 3D models and animations using Blender and bring ideas to life."
+        }
+    }, 
+    "projects": {
+        "title": "Projects",
+        "schoolBtn": "School",
+        "personalBtn": "Personal",
+        "school": {
+            "youthawear": {
+                "designLabel": "Design:",
+                "design": "Figma, Illustrator",
+                "devLabel": "Development:",
+                "dev": "HTML, CSS, JavaScript",
+                "descLabel": "Description",
+                "description": "YouthAWear was such a fun project! For our final project of the first schoolyear, we were tasked to create a digital product to raise awareness about sustainable fashion. I chose to design an online learning platform aimed at children aged 12 to 18. Through a series of interactive quiz-style games, users can learn about sustainability in fashion in a fun and engaging way. They can also create and customize their own avatars using a variety of sustainable clothing options, which they can buy and try on within the platform."
+            },
+            "foodkiosk": {
+                "designLabel": "Design:",
+                "design": "Blender",
+                "devLabel": "Development:",
+                "dev": "None",
+                "descLabel": "Description",
+                "description": "Our final project in 3D Design focused on creating a food kiosk modeled after a street food of our choice. I designed mine around the Nigerian kitchen since I grew up with it. Set in a quiet park, the kiosk captures the simplicity and charm of eating a well-flavored meal on a warm summer evening with family and friends."
+            },
+            "xdStickers": {
+                "designLabel": "Design:",
+                "design": "Figma, Illustrator",
+                "devLabel": "Development:",
+                "dev": "None",
+                "descLabel": "Description",
+                "description": "For the openingsweek of the new schoolyear at Thomas More, we were asked create something to put Digital Experience Design on the map! I came up with the fun idea of creating stickers resembling the course. Combining elements of both design and development, I designed stickers that reflect the essence of the curriculum."
+            },
+            "zuiderbad": {
+                "designLabel": "Design:",
+                "design": "Figma, Blender, Illustrator",
+                "devLabel": "Development:",
+                "dev": "HTML, CSS, JavaScript & Three.js",
+                "descLabel": "Description",
+                "description": "Last schoolyear we've been given the opportunity to work with a real client! Our class got devided in 3 groups and each group was given a different client. My group worked with Zuiderbad, a horeca and event bureau in Mechelen. <br> They asked us to create an online map so people could navigate themselves better around the domain. My role within the project was to design the UI of the map and how it would look integrated on the existing website.",
+                "teamLabel": "Meet the team",
+                "team1": "Ben Devos",
+                "team2": "Sam Pittois",
+                "modal":{
+                    "ben": {
+                        "name": "Ben Devos",
+                        "jobLabel": "Job description",
+                        "job": "Backend Developer",
+                        "feedbackLabel": "Feedback:",
+                        "feedback": "I loved this project",
+                        "portfolioLabel": "Check out their work",
+                        "portfolio": "Portfolio"
+                    },
+                     "sam": {
+                        "name": "Sam Pittois",
+                        "jobLabel": "Job description",
+                        "job": "3D Designer",
+                        "feedbackLabel": "Feedback:",
+                        "feedback": "I loved this project",
+                        "portfolioLabel": "Check out her work",
+                        "portfolio": "Portfolio"
+                    }
+                }
+            }
+
+        },
+        "personal": {
+            "tunturi": {
+                "designLabel": "Design:",
+                "design": "None",
+                "devLabel": "Development:",
+                "dev": "HTML, CSS",
+                "descLabel": "Description",
+                "description": "For this project, I aimed to recreate the Tunturi home page using HTML and CSS..."
+            },
+            "project2": {
+                "designLabel": "Design:",
+                "design": "Figma, Illustrator",
+                "devLabel": "Development:",
+                "dev": "None",
+                "descLabel": "Description",
+                "description": "Project 2 is a fictional project that focuses on creating customizable stickers for digital communication."
+            },
+            "project3": {
+                "designLabel": "Design:",
+                "design": "Figma, Illustrator",
+                "devLabel": "Development:",
+                "dev": "None",
+                "descLabel": "Description",
+                "description": "Project 3 is a fictional project that focuses on creating customizable stickers for digital communication."
+            }
+        }    
+    },
+    "contact": {
+        "title": "Contact",
+        "emailLabel": "Email:",
+        "email": "fake@email.com",
+        "phoneLabel": "Phone nr:",
+        "phone": "04 000 000",
+        "linkedInLabel": "LinkedIn",
+        "linkedin": "Audrey Designs",
+        "cvLabel": "Extra:",
+        "cv": "Download my CV",
+        "desc": "If you're interested in working together or have any questions, feel free to reach out!"
+    },
+    "footer": {
+        "text": "© 2025 Audromida Designs. All rights reserved."
+    }
+
+}
+
