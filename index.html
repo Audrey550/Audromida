@@ -76,11 +76,17 @@
         </div>
 
         <div class="navLinks" id="navLinks">
-            <a href="#aboutme">About me</a>
-            <a href="#latestBlog" class="blogLink">Blog</a>
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#aboutme" data-i18n="nav.about">About me</a>
+            <a href="#latestBlog" class="blogLink" data-i18n="nav.blog">Blog</a>
+            <a href="#services" data-i18n="nav.services">Services</a>
+            <a href="#projects" data-i18n="nav.projects">Projects</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+
+        <!--Language switcher-->
+        <div class="language-switcher">
+            <button id="lang-en">EN</button>
+            <button id="lang-nl">NL</button>
         </div>
     </nav>
 
@@ -96,12 +102,12 @@
             <span class="bubble white"></span>
         </div>
         <div class="hero-text">
-            <h1>Hey, I am Audrey 👋🏽</h1>
-            <h2>Frontend Designer / Developer</h2>
-            <p>I can help you design and build unique and user-friendly websites your users will love!</p>
-        <div class="hero-btns">
-            <a href="#" class="btn">Get in touch</a>
-            <a href="#" class="btn">Browse projects</a>
+            <h1 data-i18n="hero.title">Hey, I am Audrey 👋🏽</h1>
+            <h2 data-i18n=" hero.subtitle">Frontend Designer / Developer</h2>
+            <p data-i18n="hero.description">I can help you design and build unique and user-friendly websites your users will love!</p>
+        <div class="hero.btns">
+            <a href="#" class="btn" data-i18n="hero.contact">Get in touch</a>
+            <a href="#" class="btn" data-i18n="hero.projects">Browse projects</a>
         </div>
         </div>
         <div class="hero-image">
@@ -112,16 +118,16 @@
     <main>
         <!-- ABOUT ME SECTION -->
         <section class="aboutMe" id="aboutme">
-            <h2>About Me</h2>
+            <h2 data-i18n="about.title">About Me</h2>
             <div class="bio">
-                <p>Hey there! I'm Audrey, a 28 year old Digital Experience Design student based in Belgium with a big passion for all things creative. Growing up, I spent most of my time drawing, painting, and crafting - heavily inspired by the cartoons I loved. People always told me to "do something with my art", but I wasn't sure what that meant. After highschool, I put creativity aside and worked in retail... Until Covid-19 hit. <br> <br>During lockdown, I reconnected with my creative side - and stumbled upon a YouTube tutorial about coding. That was the moment it all clicked! I'd found a way to combine creativity with technoligy. Today, I specialize in front-end development using HTML, CSS and JavaScript to build responsive, user-friendly websites. I design using Figma, Illustrator and Blender, and I've explored some backend basics to better understand full workflows and work more effectively in teams. <br><br>I love experimenting with new tools and always try to bring a fresh skill into every project - wether it's for school or personal growth. I'm currently open to intership opportunities where I can grow, collaborate, and contribute to real-world digital experiences.
+                <p data-i18n="about.bio">Hey there! I'm Audrey, a 28 year old Digital Experience Design student based in Belgium with a big passion for all things creative. Growing up, I spent most of my time drawing, painting, and crafting - heavily inspired by the cartoons I loved. People always told me to "do something with my art", but I wasn't sure what that meant. After highschool, I put creativity aside and worked in retail... Until Covid-19 hit. <br> <br>During lockdown, I reconnected with my creative side - and stumbled upon a YouTube tutorial about coding. That was the moment it all clicked! I'd found a way to combine creativity with technoligy. Today, I specialize in front-end development using HTML, CSS and JavaScript to build responsive, user-friendly websites. I design using Figma, Illustrator and Blender, and I've explored some backend basics to better understand full workflows and work more effectively in teams. <br><br>I love experimenting with new tools and always try to bring a fresh skill into every project - wether it's for school or personal growth. I'm currently open to intership opportunities where I can grow, collaborate, and contribute to real-world digital experiences.
                 </p>
             </div>
             <div class="about-content">
                 <!-- COURSE SECTION -->
                 <div class="courses">
                     <div class="course-label-list">
-                    <h3>Courses:</h3>
+                    <h3 data-i18n="about.courses.title">Courses:</h3>
                     <ul>
                         <li>Bachelor Digital Experienxe Design - Thomas More Mechelen (2026)</li>
                         <li>Webdesigner - GO! Crescendo (2023)</li>
@@ -133,73 +139,72 @@
                 <div class="skills">
                 <div class="skills-label-icons">
                     <!--SOFT SKILLS-->
-                    <h3>Soft Skills:</h3>
+                    <h3 data-i18n="about.skills.soft.title">Soft Skills:</h3>
                     <div class="skills-tabs">
                         <div class="skills-btns">
                             <button class="tab-btn active"
-                            onclick="showTab('social', event)">Sociale</button>
-                            <button class="tab-btn" onclick="showTab('personal', event)">Personal</button>
-                            <button class="tab-btn" onclick="showTab('cognitive', event)">Cognitive</button>
+                            onclick="showTab('social', event)" data-i18n="about.skills.soft.socialBtn">Sociale</button>
+                            <button class="tab-btn" onclick="showTab('personal', event)" data-i18n="about.skills.soft.personalBtn">Personal</button>
+                            <button class="tab-btn" onclick="showTab('cognitive', event)" data-i18n="about.skills.soft.cognitiveBtn">Cognitive</button>
                         </div>
 
                         <!--SOCIAL SKILLS-->
                          <div class="skills-content" id="social">
                             <ul>
-                                <li>Empathy</li>
-                                <li>Collaborating</li>
-                                <li>Listening</li>
-                                <li>Caring</li>
-                                <li>Enthusiastic</li>
+                                <li data-i18n="about.skills.soft.social.emp">Empathy</li>
+                                <li data-i18n="about.skills.soft.social.collab">Collaborating</li>
+                                <li data-i18n="about.skills.soft.social.listen">Listening</li>
+                                <li data-i18n="about.soft.social.caring">Caring</li>
+                                <li data-i18n="about.skills.soft.social.enth">Enthusiastic</li>
                             </ul>
-                        
                         </div>
 
                         <!--PERSONAL SKILLS-->
                         <div class="skills-content hidden" id="personal">
                             <ul>
-                                <li>Responsible</li>
-                                <li>Perseverance</li>
-                                <li>Punctual</li>
-                                <li>Perfectionist</li>
+                                <li data-i18n="about.skills.soft.personal.resp">Responsible</li>
+                                <li data-i18n="about.skills.soft.personal.pers">Perseverance</li>
+                                <li data-i18n="about.skills.soft.personal.punct">Punctual</li>
+                                <li data-i18n="about.skills.soft.personal.perf">Perfectionist</li>
                             </ul>
                         </div>
 
                         <!--COGNITIVE SKILLS-->
                         <div class="skills-content hidden" id="cognitive">
                             <ul>
-                                <li>Creative Thinking</li>
-                                <li>Critical Thinking</li>
-                                <li>Studious</li>
+                                <li data-i18n="about.skills.soft.cognitive.creative">Creative Thinking</li>
+                                <li data-i18n="about.skills.soft.cognitive.critical">Critical Thinking</li>
+                                <li data-i18n="about.skills.soft.cognitive.studious">Studious</li>
                             </ul>
                         </div>
                     </div>
 
                     <!--HARD SKILLS-->
-                    <h3>Hard Skills:</h3>
+                    <h3 data-i18n="about.skills.hard.title">Hard Skills:</h3>
                     <div class="skills-tabs">
                         <div class="skills-btns">
-                            <button class="tab-btn active" onclick="showTab('design', event)">Design</button>
-                            <button class="tab-btn" onclick="showTab('development', event)">Development</button>
+                            <button class="tab-btn active" onclick="showTab('design', event)" data-i18n="about.skills.hard.designBtn">Design</button>
+                            <button class="tab-btn" onclick="showTab('development', event)" data-i18n="about.skills.hard.devBtn">Development</button>
                         </div>
 
                         <!--DESIGN SKILLS-->
                         <div class="skills-content" id="design">
-                            <p>Figma</p>
+                            <p data-i18n="about.skills.hard.figma">Figma</p>
                             <div class="progress-bar">
                                 <div class="skill figma"></div>
                             </div>
 
-                            <p>Blender</p>
+                            <p data-i18n="about.skills.hard.blender">Blender</p>
                             <div class="progress-bar">
                                 <div class="skill blender"></div>
                             </div>
 
-                            <p>Illustrator</p>
+                            <p data-i18n="about.skills.hard.illu">Illustrator</p>
                             <div class="progress-bar">
                                 <div class="skill ill"></div>
                             </div>
 
-                            <p>Photoshop</p>
+                            <p data-i18n="about.skills.hard.photo">Photoshop</p>
                             <div class="progress-bar">
                                 <div class="skill pho"></div>
                             </div>
@@ -207,22 +212,22 @@
 
                         <!--CODE SKILLS-->
                         <div class="skills-content hidden" id="development">
-                            <p>HTML</p>
+                            <p data-i18n="about.skills.hard.html">HTML</p>
                             <div class="progress-bar">
                                 <div class="skill html"></div>
                             </div>
 
-                            <p>CSS</p>
+                            <p data-i18n="about.skills.hard.css">CSS</p>
                             <div class="progress-bar">
                                 <div class="skill css"></div>
                             </div>
 
-                            <p>JAVASCRIPT</p>
+                            <p data-i18n="about.skills.hard.javasc">JAVASCRIPT</p>
                             <div class="progress-bar">
                                 <div class="skill js"></div>
                             </div>
 
-                             <p>PHP</p>
+                            <p data-i18n="about.skills.hard.php">PHP</p>
                             <div class="progress-bar">
                                 <div class="skill php"></div>
                             </div>
@@ -237,30 +242,30 @@
 
         <!--SERVICES SECTION-->
         <section class="services" id="services">
-            <h2>Services</h2>
+            <h2 data-i18n="services.title">Services</h2>
             <div class="service">
                 <img src="icons/ux-ui.png" alt="ux/ui icon">
-                <h3>UI/UX Design:</h3>
-                <p>I create user-friendly designs that are both easy to use and visually appealing.</p>
+                <h3 data-i18n="services.uiux.title">UI/UX Design:</h3>
+                <p data-i18n="services.uiux.desc">I create user-friendly designs that are both easy to use and visually appealing.</p>
             </div>
             <div class="service">
                <img src="icons/webappdevelopment.png" alt="web/app icon">
-                <h3>Frontend Development:</h3>
-                <p>I build responsive, fast-loading websites and apps using HTML, CSS, and JavaScript.</p>
+                <h3 data-i18n="services.frontend.title">Frontend Development:</h3>
+                <p data-i18n="services.frontend.desc">I build responsive, fast-loading websites and apps using HTML, CSS, and JavaScript.</p>
             </div>
             <div class="service">
                 <img src="icons/3Ddesign.png" alt="3D design icon">
-                <h3>3D Design:</h3>
-                <p>I create 3D models and animations using Blender and bring ideas to life.</p>
+                <h3 data-i18n="services.3d.title">3D Design:</h3>
+                <p data-i18n="services.3d.desc">I create 3D models and animations using Blender and bring ideas to life.</p>
             </div>
         </section>
 
         <!--SCHOOL/PERSONAL PROJECT SECTION-->
         <section class="projects" id="projects">
-            <h2>Projects</h2>
+            <h2 data-i18n="projects.title">Projects</h2>
             <div class="project-btns">
-                <a href="#" class="schoolbtn">School</a>
-                <a href="#" class="personalbtn">Personal</a>
+                <a href="#" class="schoolbtn" data-i18n="projects.schoolBtn">School</a>
+                <a href="#" class="personalbtn" data-i18n="projects.personalBtn">Personal</a>
             </div>
             <div class="project-list">
                 <!-- SCHOOL PROJECTS -->
@@ -271,7 +276,7 @@
                     <h2>YouthAWear</h2>
                     <p><strong>Design:</strong> Figma, Illustrator</p>
                     <p><strong>Development:</strong> HTML, CSS, JavaScript</p>
-                    <p><strong>Description:</strong> YouthAWear was such a fun project! For our final project of the first schoolyear, we were tasked to create a digital product to raise awareness about sustainable fashion. I chose to design an online learning platform aimed at children aged 12 to 18. Through a series of interactive quiz-style games, users can learn about sustainability in fashion in a fun and engaging way. They can also create and customize their own avatars using a variety of sustainable clothing options, which they can "buy" and try on within the platform.</p>
+                    <p><strong data-i18n="projects.school.youthawear.descLabel">Description:</strong><span data-i18n="projects.school.youthawear.description">YouthAWear was such a fun project! For our final project of the first schoolyear, we were tasked to create a digital product to raise awareness about sustainable fashion. I chose to design an online learning platform aimed at children aged 12 to 18. Through a series of interactive quiz-style games, users can learn about sustainability in fashion in a fun and engaging way. They can also create and customize their own avatars using a variety of sustainable clothing options, which they can "buy" and try on within the platform.</p></span>
 
                     <div class="carousel">
                         <div class="carousel-images">
@@ -292,7 +297,7 @@
                     <h2>3D Foodkiosk</h2>
                     <p><strong>Design:</strong> Blender</p>
                     <p><strong>Development:</strong> None</p>
-                    <p><strong>Description:</strong> Our final project in 3D Design focused on creating a food kiosk modeled after a street food of our choice. I designed mine around the Nigerian kitchen since I grew up with it. Set in a quiet park, the kiosk captures the simplicity and charm of eating a well-flavored meal on a warm summer evening with family and friends.</p>
+                    <p><strong data-i18n="projects.school.foodkiosk.descLabel">Description:</strong><span data-i18n="projects.school.foodkiosk.description">Our final project in 3D Design focused on creating a food kiosk modeled after a street food of our choice. I designed mine around the Nigerian kitchen since I grew up with it. Set in a quiet park, the kiosk captures the simplicity and charm of eating a well-flavored meal on a warm summer evening with family and friends.</p></span>
 
                     <div class="carousel">
                         <div class="carousel-images">
@@ -313,7 +318,7 @@
                     <h2>XD/iXD Stickers</h2>
                     <p><strong>Design:</strong> Figma, Illustrator</p>
                     <p><strong>Development:</strong> none</p>
-                    <p><strong>Description:</strong> For the openingsweek of the new schoolyear at Thomas More, we were asked create something to put Digital Experience Design on the map! I came up with the fun idea of creating stickers resembling the course. Combining elements of both design and development, I designed stickers that reflect the essence of the curriculum.</p>
+                    <p><strong data-i18n="projects.school.xdStickers.descLabel">Description:</strong><span data-i18n="projects.school.xdStickers.description"></span>For the openingsweek of the new schoolyear at Thomas More, we were asked create something to put Digital Experience Design on the map! I came up with the fun idea of creating stickers resembling the course. Combining elements of both design and development, I designed stickers that reflect the essence of the curriculum.</p>
                     <div class="carousel">
                         <div class="carousel-images">
                             <img src="img/sticker XD.png" alt="XDsticker" class="carousel-item">
@@ -328,8 +333,8 @@
                     <h2>Zuiderbad</h2>
                     <p><strong>Design:</strong> Figma, Blender, Illustrator</p>
                     <p><strong>Development:</strong> HTML, CSS, JavaScript & Three.js</p>
-                    <p><strong>Description:</strong> Last schoolyear we've been given the opportunity to work with a real client! Our class got devided in 3 groups and each group was given a different client. My group worked with <a href="https://www.zuiderbad.be/" class="infoLinks">Zuiderbad</a>, a horeca and event bureau in Mechelen. <br> They asked us to create an online map so people could navigate themselves better around the domain. My role within the project was to design the UI of the map and how it would look integrated on the existing website. </p>
-                    <p><strong>Meet the team:</strong><a href="#" class="infoLinks">  Ben Devos</a> en <a href="#" class="infoLinks">Sam Pittois</a></p>
+                    <p><strong data-i18n="projects.school.zuiderbad.descLabel">Description:</strong><span data-i18n="projects.school.zuiderbad.description">Last schoolyear we've been given the opportunity to work with a real client! Our class got devided in 3 groups and each group was given a different client. My group worked with <a href="https://www.zuiderbad.be/" class="infoLinks">Zuiderbad</a>, a horeca and event bureau in Mechelen. <br> They asked us to create an online map so people could navigate themselves better around the domain. My role within the project was to design the UI of the map and how it would look integrated on the existing website.</p></span>
+                    <p><strong data-i18n="projects.school.zuiderbad.teamLabel">Meet the team:</strong><a href="#" class="infoLinks" data-i18n="projects.school.zuiderbad.team1"> Ben Devos</a> en <a href="#" class="infoLinks" data-i18n="projects.school.zuiderbad.team2">Sam Pittois</a></p>
 
                     <div class="carousel">
                         <div class="carousel-images">
@@ -348,21 +353,22 @@
             <div id="modal-ben" class="modal">
                 <div class="modalContent">
                     <span class="close" data-modal="modal-ben">&times;</span>
-                    <h3>Ben Devos</h3>
-                    <p><strong>Job description</strong> Backend Developer</p>
-                    <p><strong>Feedback:</strong> I loved this project!</p>
-                    <p><strong>Check out their work:</strong><a href="#" target="_blank" class="infoLinks"> Portfolio</a></p>
+                    <h3 data-i18n="projects.school.zuiderbad.modal.ben.name">Ben Devos</h3>
+                    <p><strong data-i18n="projects.school.zuiderbad.modal.ben.jobLabel">Job description</strong><span data-i18n="projects.school.zuiderbad.modal.ben.job">Backend Developer</p></span>
+                    <p><strong data-i18n="projects.school.zuiderbad.modal.ben.feedbackLabel">Feedback:</strong><span data-i18n="projects.school.zuiderbad.modal.ben.feedback"></span>I loved this project!</p>
+                    <p><strong data-i18n="projects.school.zuiderbad.modal.ben.portfolioLabel">Check out their work:</strong><a href="#" target="_blank" class="infoLinks"> Portfolio</a></p>
                 </div>
             </div>
 
-               <!--Modal voor Sam Pittois-->
+            <!--Modal voor Sam Pittois-->
+
             <div id="modal-sam" class="modal">
                 <div class="modalContent">
                     <span class="close" data-modal="modal-sam">&times;</span>
-                    <h3>Sam Pittois</h3>
-                    <p><strong>Job description</strong> 3D Designer</p>
-                    <p><strong>Feedback:</strong> I loved working in this team!</p>
-                    <p><strong>Check out her work:</strong><a href="#" target="_blank">Portfolio</a></p>
+                    <h3 data-i18n="projects.school.zuiderbad.modal.ben.name">Sam Pittois</h3>
+                    <p><strong data-i18n="projects.school.zuiderbad.modal.sam.jobLabel">Job description</strong><span data-i18n="projects.school.zuiderbad.modal.sam.job">3D Designer</p></span>
+                    <p><strong data-i18n="projects.school.zuiderbad.modal.sam.feedbackLabel">Feedback:</strong><span data-i18n="projects.school.zuiderbad.modal.sam.feedback"></span>I loved this project!</p>
+                    <p><strong data-i18n="projects.school.zuiderbad.modal.sam.portfolioLabel">Check out her work:</strong><a href="#" target="_blank" class="infoLinks"> Portfolio</a></p>
                 </div>
             </div>
 
