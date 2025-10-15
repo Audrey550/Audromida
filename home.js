@@ -194,3 +194,34 @@ document.addEventListener('DOMContentLoaded', () => {
     console.error('Fout bij het laden van de laatste blogpost', error);
   });
 });
+
+//Language - switcher
+document.querySelectorAll('[data-i18n]').forEach(el => {
+  const langButtons = document.querySelectorAll("[id^='lang-']");
+  let currentLang = localStorage.getItem("lang") || "en";
+
+  loadLanguage(currentLang);
+
+  langButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const selectedLang = button.id.split("-")[1];
+      loadLanguage(selectedLang);
+      localStorage.setItem("lang", selectedLang);
+    });
+  });
+});
+
+function loadLanguage(lang){
+  fetch(`languages/${lang}.json`)
+  .then(response => response.json())
+  .then(translations => applyTranslations(translations))
+  .catch(err => console.error("Error loading language file:", err));
+}
+
+function applyTranslations(translations) {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    const text = key.split('.').reduce((o,i) => o ? o[i] : null, translations);
+    if (text) el.innerHTML = text;
+  });
+}
