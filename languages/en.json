@@ -163,9 +163,9 @@
         "phone": "04 000 000",
         "linkedInLabel": "LinkedIn",
         "linkedin": "Audrey Designs",
-        "cvLabel": "Extra:",
-        "cv": "Download my CV",
-        "desc": "If you're interested in working together or have any questions, feel free to reach out!"
+        "extraLabel": "Extra:",
+        "cvText": "Download my CV",
+        "description": "If you're interested in working together or have any questions, feel free to reach out!"
     },
     "footer": {
         "text": "© 2025 Audromida Designs. All rights reserved."

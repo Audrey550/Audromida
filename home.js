@@ -196,11 +196,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //Language - switcher
-document.querySelectorAll('[data-i18n]').forEach(el => {
-  const langButtons = document.querySelectorAll("[id^='lang-']");
-  let currentLang = localStorage.getItem("lang") || "en";
+const langButtons = document.querySelectorAll("[id^='lang-']");
+let currentLang = localStorage.getItem("lang") || "en";
 
-  loadLanguage(currentLang);
+loadLanguage(currentLang);
 
   langButtons.forEach(button => {
     button.addEventListener("click", () => {
@@ -208,7 +207,6 @@ document.querySelectorAll('[data-i18n]').forEach(el => {
       loadLanguage(selectedLang);
       localStorage.setItem("lang", selectedLang);
     });
-  });
 });
 
 function loadLanguage(lang){

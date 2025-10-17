@@ -76,7 +76,7 @@
                 "design": "Figma, Illustrator",
                 "devLabel": "Development:",
                 "dev": "HTML, CSS, JavaScript",
-                "descLabel": "Description",
+                "descLabel": "Beschrijving:",
                 "description": "YouthAWear was zo’n leuk project! Voor ons eindproject van het eerste schooljaar kregen we de opdracht om een digitaal product te maken dat bewustwording creëert rond duurzame mode. Ik koos ervoor om een online leerplatform te ontwerpen, gericht op kinderen van 12 tot 18 jaar. Via een reeks interactieve quizspellen leren gebruikers op een leuke en boeiende manier over duurzaamheid in de mode. Ze kunnen ook hun eigen avatars maken en aanpassen met verschillende duurzame kledingopties die ze kunnen kopen en passen binnen het platform."
             },
             "foodkiosk": {
@@ -159,13 +159,13 @@
         "title": "Contact",
         "emailLabel": "Email:",
         "email": "fake@email.com",
-        "phoneLabel": "Telefoonnummer:",
+        "phoneLabel": "Telefoon nr:",
         "phone": "04 000 000",
         "linkedInLabel": "LinkedIn",
         "linkedin": "Audrey Designs",
-        "cvLabel": "Extra:",
-        "cv": "Download mijn CV",
-        "desc": "Als je geïnteresseerd bent om samen te werken of vragen hebt, neem dan gerust contact met me op!"
+        "extraLabel": "Extra:",
+        "cvText": "Download mijn CV",
+        "description": "Als je geïnteresseerd bent om samen te werken of vragen hebt, neem dan gerust contact met me op!"
     },
     "footer": {
         "text": "© 2025 Audromida Designs. Alle rechten voorbehouden."
