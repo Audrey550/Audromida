@@ -14,35 +14,35 @@
         "projects": "Bekijk projecten"
     },
     "about": {
-        "title": "About me",
-        "bio": "Hey there! I'm Audrey, a 28 year old Digital Experience Design student based in Belgium with a big passion for all things creative. Growing up, I spent most of my time drawing, painting, and crafting - heavily inspired by the cartoons I loved. People always told me to do something with my art, but I wasn't sure what that meant. After highschool, I put creativity aside and worked in retail... Until Covid-19 hit. During lockdown, I reconnected with my creative side - and stumbled upon a YouTube tutorial about coding. That was the moment it all clicked! I'd found a way to combine creativity with technoligy. Today, I specialize in front-end development using HTML, CSS and JavaScript to build responsive, user-friendly websites. I design using Figma, Illustrator and Blender, and I've explored some backend basics to better understand full workflows and work more effectively in teams. I love experimenting with new tools and always try to bring a fresh skill into every project - wether it's for school or personal growth. I'm currently open to intership opportunities where I can grow, collaborate, and contribute to real-world digital experiences."
+        "title": "Over mij",
+        "bio": "Hey daar! Ik ben Audrey, een 28-jarige student Digital Experience Design uit België met een grote passie voor alles wat creatief is. Als kind bracht ik het grootste deel van mijn tijd door met tekenen, schilderen en knutselen – geïnspireerd door de cartoons waar ik van hield. Mensen zeiden altijd dat ik iets met mijn kunst moest doen, maar ik wist nooit precies wat. Na de middelbare school liet ik mijn creativiteit even los en ging ik werken in de detailhandel... Tot Covid-19 toesloeg. Tijdens de lockdown vond ik mijn creatieve kant terug – en kwam ik toevallig een YouTube-tutorial over coderen tegen. Dat was het moment waarop alles op z’n plek viel! Ik had een manier gevonden om creativiteit te combineren met technologie. Vandaag specialiseer ik mij in front-end development met HTML, CSS en JavaScript om responsieve, gebruiksvriendelijke websites te bouwen. Ik ontwerp met Figma, Illustrator en Blender, en heb ook wat basiskennis van backend ontwikkeld om beter inzicht te krijgen in volledige workflows en effectiever samen te werken in teams. Ik experimenteer graag met nieuwe tools en probeer altijd een nieuwe vaardigheid in elk project te verwerken – of het nu voor school of persoonlijke groei is. Momenteel sta ik open voor stageplaatsen waar ik kan groeien, samenwerken en bijdragen aan echte digitale ervaringen."
     },
     "courses": {
-        "title": "Courses"
+        "title": "Opleidingen"
     },
     "skills": {
         "soft": {
             "title": "Soft Skills:",
-            "socialBtn": "Sociale",
-            "personalBtn": "Personal",
-            "cognitiveBtn": "Cognitive",
+            "socialBtn": "Sociaal",
+            "personalBtn": "Persoonlijk",
+            "cognitiveBtn": "Cognitief",
             "social": {
-                "emp": "Empathy",
-                "collab": "Collaborating",
-                "listen": "Listening",
-                "caring": "Caring",
-                "enth": "Enthusiastic"
+                "emp": "Empathie",
+                "collab": "Samenwerking",
+                "listen": "Luisteren",
+                "caring": "Zorgzaam",
+                "enth": "Enthousiast"
             },
             "personal": {
-                "resp": "Responsible",
-                "pers": "Perseverance",
-                "punct": "Punctual",
+                "resp": "Verantwoordelijk",
+                "pers": "Doorzettingsvermogen",
+                "punct": "Punctueel",
                 "perf": "Perfectionist"
             },
             "cognitive": {
-                "creative": "Creative Thinking",
-                "critical": "Critical Thinking",
-                "studious": "Studious"
+                "creative": "Creatief Denken",
+                "critical": "Kritisch Denken",
+                "studious": "Leergierig"
             }
         },
         "hard": {
@@ -52,24 +52,24 @@
         }
     },
     "services": {
-        "title": "Services",
+        "title": "Diensten",
         "uiux":{
             "title": "UI/ UX Design:",
-            "desc": "I create user-friendly designs that are both easy to use and visually appealing."
+            "desc": "Ik creëer gebruiksvriendelijke ontwerpen die zowel gemakkelijk te gebruiken als visueel aantrekkelijk zijn."
         },
         "frontend": {
             "title": "Frontend Development",
-            "desc": "I build responsive, fast-loading websites and apps using HTML, CSS, and JavaScript."
+            "desc": "Ik bouw responsieve, snel ladende websites en apps met HTML, CSS en JavaScript."
         },
         "3d": {
             "title": "3D Design:",
-            "desc": ">I create 3D models and animations using Blender and bring ideas to life."
+            "desc": "Ik creëer 3D-modellen en animaties met Blender en breng ideeën tot leven."
         }
     }, 
     "projects": {
-        "title": "Projects",
+        "title": "Projecten",
         "schoolBtn": "School",
-        "personalBtn": "Personal",
+        "personalBtn": "Persoonlijk",
         "school": {
             "youthawear": {
                 "designLabel": "Design:",
@@ -77,51 +77,51 @@
                 "devLabel": "Development:",
                 "dev": "HTML, CSS, JavaScript",
                 "descLabel": "Description",
-                "description": "YouthAWear was such a fun project! For our final project of the first schoolyear, we were tasked to create a digital product to raise awareness about sustainable fashion. I chose to design an online learning platform aimed at children aged 12 to 18. Through a series of interactive quiz-style games, users can learn about sustainability in fashion in a fun and engaging way. They can also create and customize their own avatars using a variety of sustainable clothing options, which they can buy and try on within the platform."
+                "description": "YouthAWear was zo’n leuk project! Voor ons eindproject van het eerste schooljaar kregen we de opdracht om een digitaal product te maken dat bewustwording creëert rond duurzame mode. Ik koos ervoor om een online leerplatform te ontwerpen, gericht op kinderen van 12 tot 18 jaar. Via een reeks interactieve quizspellen leren gebruikers op een leuke en boeiende manier over duurzaamheid in de mode. Ze kunnen ook hun eigen avatars maken en aanpassen met verschillende duurzame kledingopties die ze kunnen kopen en passen binnen het platform."
             },
             "foodkiosk": {
                 "designLabel": "Design:",
                 "design": "Blender",
                 "devLabel": "Development:",
-                "dev": "None",
-                "descLabel": "Description",
-                "description": "Our final project in 3D Design focused on creating a food kiosk modeled after a street food of our choice. I designed mine around the Nigerian kitchen since I grew up with it. Set in a quiet park, the kiosk captures the simplicity and charm of eating a well-flavored meal on a warm summer evening with family and friends."
+                "dev": "Geen",
+                "descLabel": "Beschrijving:",
+                "description": "Ons eindproject in 3D Design was gericht op het creëren van een food kiosk, gemodelleerd naar een street food van onze keuze. Ik heb de mijne ontworpen rond de Nigeriaanse keuken, omdat ik ermee ben opgegroeid. Gelegen in een rustig park, vangt de kiosk de eenvoud en charme van het eten van een goed gekruid gerecht op een warme zomeravond met familie en vrienden."
             },
             "xdStickers": {
                 "designLabel": "Design:",
                 "design": "Figma, Illustrator",
                 "devLabel": "Development:",
-                "dev": "None",
-                "descLabel": "Description",
-                "description": "For the openingsweek of the new schoolyear at Thomas More, we were asked create something to put Digital Experience Design on the map! I came up with the fun idea of creating stickers resembling the course. Combining elements of both design and development, I designed stickers that reflect the essence of the curriculum."
+                "dev": "Geen",
+                "descLabel": "Beschrijving:",
+                "description": "Voor de openingsweek van het nieuwe schooljaar aan Thomas More, kregen we de opdracht om iets te creëren dat Digital Experience Design op de kaart zet! Ik kwam op het leuke idee om stickers te maken die de cursus weerspiegelen. Door elementen van zowel design als development te combineren, ontwierp ik stickers die de essentie van het curriculum vastlegden."
             },
             "zuiderbad": {
                 "designLabel": "Design:",
                 "design": "Figma, Blender, Illustrator",
                 "devLabel": "Development:",
                 "dev": "HTML, CSS, JavaScript & Three.js",
-                "descLabel": "Description",
-                "description": "Last schoolyear we've been given the opportunity to work with a real client! Our class got devided in 3 groups and each group was given a different client. My group worked with Zuiderbad, a horeca and event bureau in Mechelen. <br> They asked us to create an online map so people could navigate themselves better around the domain. My role within the project was to design the UI of the map and how it would look integrated on the existing website.",
-                "teamLabel": "Meet the team",
+                "descLabel": "Beschrijving:",
+                "description": "Vorig schooljaar kregen we de kans om met een echte klant te werken! Onze klas werd verdeeld in 3 groepen en elke groep kreeg een andere klant. Mijn groep werkte met Zuiderbad, een horeca- en evenementenbureau in Mechelen. <br> Ze vroegen ons om een online kaart te maken, zodat mensen zich beter konden oriënteren op het terrein. Mijn rol binnen het project was het ontwerpen van de gebruikersinterface van de kaart en hoe deze eruit zou zien geïntegreerd op de bestaande website.",
+                "teamLabel": "Ontmoet het team",
                 "team1": "Ben Devos",
                 "team2": "Sam Pittois",
                 "modal":{
                     "ben": {
                         "name": "Ben Devos",
-                        "jobLabel": "Job description",
+                        "jobLabel": "Job beschrijving:",
                         "job": "Backend Developer",
                         "feedbackLabel": "Feedback:",
-                        "feedback": "I loved this project",
-                        "portfolioLabel": "Check out their work",
+                        "feedback": "Ik vond dit project echt leuk om aan te werken!",
+                        "portfolioLabel": "Bekijk hun werk",
                         "portfolio": "Portfolio"
                     },
                      "sam": {
                         "name": "Sam Pittois",
-                        "jobLabel": "Job description",
+                        "jobLabel": "Job beschrijving:",
                         "job": "3D Designer",
                         "feedbackLabel": "Feedback:",
-                        "feedback": "I loved this project",
-                        "portfolioLabel": "Check out her work",
+                        "feedback": "Ik vond dit project echt leuk om aan te werken!",
+                        "portfolioLabel": "Bekijk haar werk",
                         "portfolio": "Portfolio"
                     }
                 }
@@ -134,24 +134,24 @@
                 "design": "None",
                 "devLabel": "Development:",
                 "dev": "HTML, CSS",
-                "descLabel": "Description",
-                "description": "For this project, I aimed to recreate the Tunturi home page using HTML and CSS..."
+                "descLabel": "Beschrijving:",
+                "description": "Voor dit project had ik als doel de Tunturi-homepage opnieuw te creëren met HTML en CSS..."
             },
             "project2": {
                 "designLabel": "Design:",
                 "design": "Figma, Illustrator",
                 "devLabel": "Development:",
-                "dev": "None",
-                "descLabel": "Description",
-                "description": "Project 2 is a fictional project that focuses on creating customizable stickers for digital communication."
+                "dev": "Geen",
+                "descLabel": "Beschrijving:",
+                "description": "Project 2 is een fictief project dat zich richt op het creëren van aanpasbare stickers voor digitale communicatie."
             },
             "project3": {
                 "designLabel": "Design:",
                 "design": "Figma, Illustrator",
                 "devLabel": "Development:",
-                "dev": "None",
-                "descLabel": "Description",
-                "description": "Project 3 is a fictional project that focuses on creating customizable stickers for digital communication."
+                "dev": "Geen",
+                "descLabel": "Beschrijving:",
+                "description": "Project 3 is een fictief project dat zich richt op het creëren van aanpasbare stickers voor digitale communicatie."
             }
         }    
     },
@@ -159,16 +159,16 @@
         "title": "Contact",
         "emailLabel": "Email:",
         "email": "fake@email.com",
-        "phoneLabel": "Phone nr:",
+        "phoneLabel": "Telefoonnummer:",
         "phone": "04 000 000",
         "linkedInLabel": "LinkedIn",
         "linkedin": "Audrey Designs",
         "cvLabel": "Extra:",
-        "cv": "Download my CV",
-        "desc": "If you're interested in working together or have any questions, feel free to reach out!"
+        "cv": "Download mijn CV",
+        "desc": "Als je geïnteresseerd bent om samen te werken of vragen hebt, neem dan gerust contact met me op!"
     },
     "footer": {
-        "text": "© 2025 Audromida Designs. All rights reserved."
+        "text": "© 2025 Audromida Designs. Alle rechten voorbehouden."
     }
 
 }
