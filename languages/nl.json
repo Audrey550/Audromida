@@ -77,7 +77,9 @@
                 "devLabel": "Development:",
                 "dev": "HTML, CSS, JavaScript",
                 "descLabel": "Beschrijving:",
-                "description": "YouthAWear was zo’n leuk project! Voor ons eindproject van het eerste schooljaar kregen we de opdracht om een digitaal product te maken dat bewustwording creëert rond duurzame mode. Ik koos ervoor om een online leerplatform te ontwerpen, gericht op kinderen van 12 tot 18 jaar. Via een reeks interactieve quizspellen leren gebruikers op een leuke en boeiende manier over duurzaamheid in de mode. Ze kunnen ook hun eigen avatars maken en aanpassen met verschillende duurzame kledingopties die ze kunnen kopen en passen binnen het platform."
+                "description": "YouthAWear was zo’n leuk project! Voor ons eindproject van het eerste schooljaar kregen we de opdracht om een digitaal product te maken dat bewustwording creëert rond duurzame mode. Ik koos ervoor om een online leerplatform te ontwerpen, gericht op kinderen van 12 tot 18 jaar. Via een reeks interactieve quizspellen leren gebruikers op een leuke en boeiende manier over duurzaamheid in de mode. Ze kunnen ook hun eigen avatars maken en aanpassen met verschillende duurzame kledingopties die ze kunnen kopen en passen binnen het platform.",
+                "color-palette-title": "Kleurenpalet:",
+                "typography-title": "Typografie:"
             },
             "foodkiosk": {
                 "designLabel": "Design:",
@@ -85,7 +87,9 @@
                 "devLabel": "Development:",
                 "dev": "Geen",
                 "descLabel": "Beschrijving:",
-                "description": "Ons eindproject in 3D Design was gericht op het creëren van een food kiosk, gemodelleerd naar een street food van onze keuze. Ik heb de mijne ontworpen rond de Nigeriaanse keuken, omdat ik ermee ben opgegroeid. Gelegen in een rustig park, vangt de kiosk de eenvoud en charme van het eten van een goed gekruid gerecht op een warme zomeravond met familie en vrienden."
+                "description": "Ons eindproject in 3D Design was gericht op het creëren van een food kiosk, gemodelleerd naar een street food van onze keuze. Ik heb de mijne ontworpen rond de Nigeriaanse keuken, omdat ik ermee ben opgegroeid. Gelegen in een rustig park, vangt de kiosk de eenvoud en charme van het eten van een goed gekruid gerecht op een warme zomeravond met familie en vrienden.",
+                "color-palette-title": "Kleurenpalet:",
+                "typography-title": "Typografie:"
             },
             "xdStickers": {
                 "designLabel": "Design:",
@@ -93,7 +97,9 @@
                 "devLabel": "Development:",
                 "dev": "Geen",
                 "descLabel": "Beschrijving:",
-                "description": "Voor de openingsweek van het nieuwe schooljaar aan Thomas More, kregen we de opdracht om iets te creëren dat Digital Experience Design op de kaart zet! Ik kwam op het leuke idee om stickers te maken die de cursus weerspiegelen. Door elementen van zowel design als development te combineren, ontwierp ik stickers die de essentie van het curriculum vastlegden."
+                "description": "Voor de openingsweek van het nieuwe schooljaar aan Thomas More, kregen we de opdracht om iets te creëren dat Digital Experience Design op de kaart zet! Ik kwam op het leuke idee om stickers te maken die de cursus weerspiegelen. Door elementen van zowel design als development te combineren, ontwierp ik stickers die de essentie van het curriculum vastlegden.",
+                "color-palette-title": "Kleurenpalet:",
+                "typography-title": "Typografie:"
             },
             "zuiderbad": {
                 "designLabel": "Design:",
@@ -102,6 +108,8 @@
                 "dev": "HTML, CSS, JavaScript & Three.js",
                 "descLabel": "Beschrijving:",
                 "description": "Vorig schooljaar kregen we de kans om met een echte klant te werken! Onze klas werd verdeeld in 3 groepen en elke groep kreeg een andere klant. Mijn groep werkte met Zuiderbad, een horeca- en evenementenbureau in Mechelen. <br> Ze vroegen ons om een online kaart te maken, zodat mensen zich beter konden oriënteren op het terrein. Mijn rol binnen het project was het ontwerpen van de gebruikersinterface van de kaart en hoe deze eruit zou zien geïntegreerd op de bestaande website.",
+                "color-palette-title": "Kleurenpalet:",
+                "typography-title": "Typografie:",
                 "teamLabel": "Ontmoet het team",
                 "team1": "Ben Devos",
                 "team2": "Sam Pittois",
@@ -135,7 +143,9 @@
                 "devLabel": "Development:",
                 "dev": "HTML, CSS",
                 "descLabel": "Beschrijving:",
-                "description": "Voor dit project had ik als doel de Tunturi-homepage opnieuw te creëren met HTML en CSS..."
+                "description": "Voor dit project had ik als doel de Tunturi-homepage opnieuw te creëren met HTML en CSS...",
+                "color-palette-title": "Kleurenpalet:",
+                "typography-title": "Typografie:"
             },
             "project2": {
                 "designLabel": "Design:",
@@ -143,7 +153,9 @@
                 "devLabel": "Development:",
                 "dev": "Geen",
                 "descLabel": "Beschrijving:",
-                "description": "Project 2 is een fictief project dat zich richt op het creëren van aanpasbare stickers voor digitale communicatie."
+                "description": "Project 2 is een fictief project dat zich richt op het creëren van aanpasbare stickers voor digitale communicatie.",
+                "color-palette-title": "Kleurenpalet:",
+                "typography-title": "Typografie:"
             },
             "project3": {
                 "designLabel": "Design:",
@@ -151,7 +163,9 @@
                 "devLabel": "Development:",
                 "dev": "Geen",
                 "descLabel": "Beschrijving:",
-                "description": "Project 3 is een fictief project dat zich richt op het creëren van aanpasbare stickers voor digitale communicatie."
+                "description": "Project 3 is een fictief project dat zich richt op het creëren van aanpasbare stickers voor digitale communicatie.",
+                "color-palette-title": "Kleurenpalet:",
+                "typography-title": "Typografie:"
             }
         }    
     },

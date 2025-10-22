@@ -77,7 +77,9 @@
                 "devLabel": "Development:",
                 "dev": "HTML, CSS, JavaScript",
                 "descLabel": "Description",
-                "description": "YouthAWear was such a fun project! For our final project of the first schoolyear, we were tasked to create a digital product to raise awareness about sustainable fashion. I chose to design an online learning platform aimed at children aged 12 to 18. Through a series of interactive quiz-style games, users can learn about sustainability in fashion in a fun and engaging way. They can also create and customize their own avatars using a variety of sustainable clothing options, which they can buy and try on within the platform."
+                "description": "YouthAWear was such a fun project! For our final project of the first schoolyear, we were tasked to create a digital product to raise awareness about sustainable fashion. I chose to design an online learning platform aimed at children aged 12 to 18. Through a series of interactive quiz-style games, users can learn about sustainability in fashion in a fun and engaging way. They can also create and customize their own avatars using a variety of sustainable clothing options, which they can buy and try on within the platform.",
+                "color-palette-title": "Color Palette:",
+                "typography-title": "Typography:"
             },
             "foodkiosk": {
                 "designLabel": "Design:",
@@ -85,7 +87,9 @@
                 "devLabel": "Development:",
                 "dev": "None",
                 "descLabel": "Description",
-                "description": "Our final project in 3D Design focused on creating a food kiosk modeled after a street food of our choice. I designed mine around the Nigerian kitchen since I grew up with it. Set in a quiet park, the kiosk captures the simplicity and charm of eating a well-flavored meal on a warm summer evening with family and friends."
+                "description": "Our final project in 3D Design focused on creating a food kiosk modeled after a street food of our choice. I designed mine around the Nigerian kitchen since I grew up with it. Set in a quiet park, the kiosk captures the simplicity and charm of eating a well-flavored meal on a warm summer evening with family and friends.",
+                "color-palette-title": "Color Palette:",
+                "typography-title": "Typography:"
             },
             "xdStickers": {
                 "designLabel": "Design:",
@@ -93,7 +97,9 @@
                 "devLabel": "Development:",
                 "dev": "None",
                 "descLabel": "Description",
-                "description": "For the openingsweek of the new schoolyear at Thomas More, we were asked create something to put Digital Experience Design on the map! I came up with the fun idea of creating stickers resembling the course. Combining elements of both design and development, I designed stickers that reflect the essence of the curriculum."
+                "description": "For the openingsweek of the new schoolyear at Thomas More, we were asked create something to put Digital Experience Design on the map! I came up with the fun idea of creating stickers resembling the course. Combining elements of both design and development, I designed stickers that reflect the essence of the curriculum.",
+                "color-palette-title": "Color Palette:",
+                "typography-title": "Typography:"
             },
             "zuiderbad": {
                 "designLabel": "Design:",
@@ -102,6 +108,8 @@
                 "dev": "HTML, CSS, JavaScript & Three.js",
                 "descLabel": "Description",
                 "description": "Last schoolyear we've been given the opportunity to work with a real client! Our class got devided in 3 groups and each group was given a different client. My group worked with Zuiderbad, a horeca and event bureau in Mechelen. <br> They asked us to create an online map so people could navigate themselves better around the domain. My role within the project was to design the UI of the map and how it would look integrated on the existing website.",
+                "color-palette-title": "Color Palette:",
+                "typography-title": "Typography:",
                 "teamLabel": "Meet the team",
                 "team1": "Ben Devos",
                 "team2": "Sam Pittois",
@@ -135,7 +143,9 @@
                 "devLabel": "Development:",
                 "dev": "HTML, CSS",
                 "descLabel": "Description",
-                "description": "For this project, I aimed to recreate the Tunturi home page using HTML and CSS..."
+                "description": "For this project, I aimed to recreate the Tunturi home page using HTML and CSS...",
+                "color-palette-title": "Color Palette:",
+                "typography-title": "Typography:"
             },
             "project2": {
                 "designLabel": "Design:",
@@ -143,7 +153,9 @@
                 "devLabel": "Development:",
                 "dev": "None",
                 "descLabel": "Description",
-                "description": "Project 2 is a fictional project that focuses on creating customizable stickers for digital communication."
+                "description": "Project 2 is a fictional project that focuses on creating customizable stickers for digital communication.",
+                "color-palette-title": "Color Palette:",
+                "typography-title": "Typography:"
             },
             "project3": {
                 "designLabel": "Design:",
@@ -151,7 +163,9 @@
                 "devLabel": "Development:",
                 "dev": "None",
                 "descLabel": "Description",
-                "description": "Project 3 is a fictional project that focuses on creating customizable stickers for digital communication."
+                "description": "Project 3 is a fictional project that focuses on creating customizable stickers for digital communication.",
+                "color-palette-title": "Color Palette:",
+                "typography-title": "Typography:"
             }
         }    
     },
