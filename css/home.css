@@ -25,7 +25,42 @@
     --Illustrator: #ff9a00;
     --Photoshop: #31a8ff;
 
-}
+    /*Fonts*/
+    font-family: "PaytoneOne-Regular";
+    src: url(../fonts/PaytoneOne-Regular.ttf);
+    }
+    @font-face {
+        font-family: "HappyMonkey-Regular";
+        src: url(../fonts/HappyMonkey-Regular.ttf);
+    }
+    @font-face {
+        font-family: "Hind-Medium";
+        src: url(../fonts/Hind-Medium.ttf);
+    }
+    @font-face {
+        font-family: "Hind-SemiBold";
+        src: url(../fonts/Hind-SemiBold.ttf);
+    }
+    @font-face {
+        font-family: "MontserratAlternates-Regular";
+        src: url(../fonts/MontserratAlternates-Regular.ttf);
+    }
+    @font-face {
+        font-family: "MontserratAlternates-Medium";
+        src: url(../fonts/MontserratAlternates-Medium.ttf);
+    }
+    @font-face {
+        font-family: "MontserratAlternates-ExtraBold";
+        src: url(../fonts/MontserratAlternates-ExtraBold.ttf);
+    }
+    @font-face {
+        font-family: "BaiJamjuree-MediumItalic";
+        src: url(../fonts/BaiJamjuree-MediumItalic.ttf);
+    }
+    @font-face {
+        font-family: "BaiJamjuree-SemiBold";
+        src: url(../fonts/BaiJamjuree-SemiBold.ttf);
+    }
 
 *{
     box-sizing: border-box;
@@ -511,6 +546,28 @@ main h2{
     margin-bottom: 20px;
     border-radius: 8px;
     position: relative;
+}
+
+.color-palette {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.color-palette button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: default;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.font-families{
+    margin-bottom: 30px;
 }
 
 .carousel{
