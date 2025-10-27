@@ -1,3 +1,35 @@
+document.addEventListener('DOMContentLoaded', () => {
+//Mailerlite popup automatisch tonen
+const popupOverlay = document.getElementById('popupOverlay');
+const closePopupBtn = document.getElementById('closePopup');
+
+//Open popup 1 seconde na het laden van de pagina
+setTimeout(() => {
+    popupOverlay.style.display = 'flex';
+    requestAnimationFrame(() => {
+        popupOverlay.style.opacity = '1';
+    });
+}, 1000);
+
+//Sluit de popup
+if (closePopupBtn && popupOverlay) {
+    closePopupBtn.addEventListener('click', () => {
+        popupOverlay.style.opacity = '0';
+        setTimeout(() => {
+            popupOverlay.style.display = 'none';
+        }, 500);
+    });
+
+    popupOverlay.addEventListener('click', (e) => {
+        if (e.target === popupOverlay) {
+            popupOverlay.style.opacity = '0';
+            setTimeout(() => {
+                popupOverlay.style.display = 'none';
+            }, 500);
+        }
+    });
+}
+
 const schoolBtn = document.querySelector('.schoolbtn');
 const personalBtn = document.querySelector('.personalbtn');
 const schoolProjects = document.querySelector('.school-projects');
@@ -51,14 +83,13 @@ if(schoolBtn && personalBtn && schoolProjects && personalProjects){
   });
 
   //Bij het laden: Toon schoolprojecten en het eerste project info
-  document.addEventListener('DOMContentLoaded', function() {
     schoolBtn.click();
     const firstSchoolInfo = document.querySelector('.school-projects .project-info');
     if (firstSchoolInfo) {
       firstSchoolInfo.classList.remove('hidden');
     }
-  });
-}
+  }
+});
 
 //SKILLS SECTIE
 function showTab(tabName, event){
