@@ -71,6 +71,18 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+
+    <!-- MailerLite Universal -->
+    <script>
+        (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+        .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+        n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+        ml('account', '1866772');
+    </script>
+    <!-- End MailerLite Universal -->
+
+
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -83,6 +95,14 @@
 </script>
 
 <body>
+    <!--Popup overlay-->
+    <div id="popupOverlay">
+        <div id="popupContent">
+            <button id="closePopup">&times;</button>
+            <div class="ml-embedded" data-form="6g4J2a"></div>
+        </div>
+    </div>
+
     <nav class="navBar">
         <div class="navLogo">Audromida</div>
 
@@ -650,5 +670,6 @@
     </div>
 
     <script src="home.js"></script>
+
 </body>
 </html>
