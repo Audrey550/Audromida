@@ -1,0 +1,13 @@
+# robots.txt for https://audromida.tech/
+
+User-agent: *
+# Toestaan om alle hoofdinhoud te indexeren
+Allow: /
+
+# Blokkeer test en interne mappen
+Disallow: /tests/
+Disallow: /figma_img/
+Disallow: /animation-assets/
+
+# Geef de locatie van de sitemap op
+Sitemap: https://audromida.tech/sitemap.xml 
