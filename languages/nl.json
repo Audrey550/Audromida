@@ -185,6 +185,25 @@
         "greeting": "Hallo daar! 👋",
         "message": "Ik waardeer je interesse om contact op te nemen zeer! Het e-mailgedeelte van mijn website is nog in aanbouw.In de tussentijd kun je mijn contactgegevens vinden in mijn CV. Bedankt voor je geduld en begrip. 😊 "
     },
+    "blog": {
+        "title": "Mijn Blog",
+            "posts": {
+                "post1": {
+                    "title": "Hallo daar! Welkom op mijn blog",
+                    "preview": "Hallo daar en welkom op mijn blog! Ik ben erg blij dat je de tijd hebt genomen om mijn allereerste blogpost hier op Audromida te lezen. Deze blog is een plek waar je mijn reis kunt volgen van een enthousiast derdejaarsstudent Digital Design tot een professionele webdesigner/developer. Ik zal schrijven over de projecten waaraan ik werk, nieuwe dingen die ik heb geleerd, ik zal zelfs schrijven over mijn stage die ik volgend semester ga doen, dus kijk ernaar uit 👀 ..."
+                },
+                "post2": {
+                    "title": "Waarom ik ben begonnen met programmeren",
+                    "preview": "Dus je wilt weten waarom ik ben begonnen met programmeren, hè? Nou, het begon allemaal toen ik werd geboren. ... Nee, grapje! Het echte verhaal speelt zich een paar jaar later af. Ik ben altijd al een vrij creatief persoon geweest, deels vanwege mijn gezondheidsproblemen die me tijdens mijn hele jeugd binnen hielden. Ik moest manieren zoeken om mezelf te vermaken die niet alleen maar tv-kijken waren. Gelukkig was ik een zeer fantasierijk kind, dus begon ik te tekenen ..."
+                },
+                "post3": {
+                    "title": "Struggles of a webdesigner",
+                    "preview": "Wanneer ik iemand vertel dat ik Digital Experience Design studeer, is de meest voorkomende reactie die ik krijg: 'Oh, dus je werkt met computers?' en ja, dat is waar, maar het is veel meer dan dat. Een groot deel van mijn studie is het leren ontwerpen en coderen van websites en apps, wat ik absoluut geweldig vind om te doen. Echter, een van de grootste uitdagingen waar ik als webdesigner mee te maken heb is de creatieve blokkade ..."
+                }
+            },
+            "readMore": "Lees meer →"
+        },
+
     "footer": {
         "text": "© 2025 Audromida Designs. Alle rechten voorbehouden."
     }
