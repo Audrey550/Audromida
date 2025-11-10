@@ -172,18 +172,21 @@
     "contact": {
         "title": "Contact",
         "emailLabel": "Email:",
-        "email": "fake@email.com",
+        "emailLink": "Click here",
         "phoneLabel": "Phone nr:",
-        "phone": "04 000 000",
+        "phone": "/",
         "linkedInLabel": "LinkedIn",
         "linkedin": "Audrey Designs",
         "extraLabel": "Extra:",
-        "cvText": "Download my CV",
+        "cvText": "View my CV",
         "description": "If you're interested in working together or have any questions, feel free to reach out!"
+    },
+    "popup":{
+        "greeting": "Hi there! 👋",
+        "message": "I really appreciate your interest in getting in touch! The email section of my website is still under construction. In the meantime, you can find my contact details in my CV. Thank you for your patience and understanding. 😊 "
     },
     "footer": {
         "text": "© 2025 Audromida Designs. All rights reserved."
     }
-
 }
 

@@ -172,14 +172,18 @@
     "contact": {
         "title": "Contact",
         "emailLabel": "Email:",
-        "email": "fake@email.com",
+        "emailLink": "Klik hier",
         "phoneLabel": "Telefoon nr:",
-        "phone": "04 000 000",
+        "phone": "/",
         "linkedInLabel": "LinkedIn",
         "linkedin": "Audrey Designs",
         "extraLabel": "Extra:",
-        "cvText": "Download mijn CV",
+        "cvText": "Bekijk mijn CV",
         "description": "Als je geïnteresseerd bent om samen te werken of vragen hebt, neem dan gerust contact met me op!"
+    },
+      "popup":{
+        "greeting": "Hallo daar! 👋",
+        "message": "Ik waardeer je interesse om contact op te nemen zeer! Het e-mailgedeelte van mijn website is nog in aanbouw.In de tussentijd kun je mijn contactgegevens vinden in mijn CV. Bedankt voor je geduld en begrip. 😊 "
     },
     "footer": {
         "text": "© 2025 Audromida Designs. Alle rechten voorbehouden."
