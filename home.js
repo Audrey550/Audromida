@@ -226,6 +226,31 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+//Contact info popup
+const email = document.getElementById('emailLink');
+const phone = document.getElementById('phoneLink');
+const popup = document.getElementById('contactPopup');
+const closePopup = document.getElementById('closePopup');
+
+function openPopup(e){
+  e.preventDefault();
+  popup.style.display = 'flex';
+}
+
+function closeContactPopup(){
+  popup.style.display = 'none';
+}
+
+email.addEventListener('click', openPopup);
+phone.addEventListener('click', openPopup);
+closePopup.addEventListener('click', closeContactPopup);
+
+popup.addEventListener('click', (e) => {
+  if(e.target === popup){
+    closeContactPopup();
+  }
+});
+
 //Language - switcher
 const langButtons = document.querySelectorAll("[id^='lang-']");
 let currentLang = localStorage.getItem("lang") || "en";

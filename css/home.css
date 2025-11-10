@@ -836,6 +836,29 @@ main h2{
     font-weight: bold;
 }
 
+.popup{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+.popup-content{
+    background-color: var(--purple);
+    border: 5px solid var(--lightpurple);
+    color: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10 25px rgba(0, 0, 0, 0.3);
+}
+
 /*Footer*/
 footer{
     background-color: var(--darkpurple);
