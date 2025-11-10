@@ -147,23 +147,23 @@
                 "color-palette-title": "Color Palette:",
                 "typography-title": "Typography:"
             },
-            "project2": {
+            "figmaProjects": {
                 "designLabel": "Design:",
                 "design": "Figma, Illustrator",
                 "devLabel": "Development:",
                 "dev": "None",
                 "descLabel": "Description",
-                "description": "Project 2 is a fictional project that focuses on creating customizable stickers for digital communication.",
+                "description": "These are Figma projects I made between 2022 and now showcasing various design concepts and prototypes.",
                 "color-palette-title": "Color Palette:",
                 "typography-title": "Typography:"
             },
-            "project3": {
+            "audromidaProject": {
                 "designLabel": "Design:",
                 "design": "Figma, Illustrator",
                 "devLabel": "Development:",
                 "dev": "None",
                 "descLabel": "Description",
-                "description": "Project 3 is a fictional project that focuses on creating customizable stickers for digital communication.",
+                "description": "Audromida is my very own portfolio website that you're currently viewing! Originally built for a school project, it has evolved into a showcase of my work and skills.",
                 "color-palette-title": "Color Palette:",
                 "typography-title": "Typography:"
             }

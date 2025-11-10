@@ -147,23 +147,23 @@
                 "color-palette-title": "Kleurenpalet:",
                 "typography-title": "Typografie:"
             },
-            "project2": {
+           "figmaProjects": {
                 "designLabel": "Design:",
                 "design": "Figma, Illustrator",
                 "devLabel": "Development:",
-                "dev": "Geen",
+                "dev": "None",
                 "descLabel": "Beschrijving:",
-                "description": "Project 2 is een fictief project dat zich richt op het creëren van aanpasbare stickers voor digitale communicatie.",
+                "description": "Dit zijn Figma-projecten die ik tussen 2022 en nu heb gemaakt en die verschillende ontwerpconcepten en prototypes laten zien.",
                 "color-palette-title": "Kleurenpalet:",
                 "typography-title": "Typografie:"
             },
-            "project3": {
+            "audromidaProject": {
                 "designLabel": "Design:",
                 "design": "Figma, Illustrator",
                 "devLabel": "Development:",
-                "dev": "Geen",
+                "dev": "None",
                 "descLabel": "Beschrijving:",
-                "description": "Project 3 is een fictief project dat zich richt op het creëren van aanpasbare stickers voor digitale communicatie.",
+                "description": "Audromida is mijn eigen portfolio website die je momenteel bekijkt! Oorspronkelijk gebouwd voor een schoolproject, is het uitgegroeid tot een showcase van mijn werk en vaardigheden.",
                 "color-palette-title": "Kleurenpalet:",
                 "typography-title": "Typografie:"
             }
