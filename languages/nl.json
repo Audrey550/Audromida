@@ -7,7 +7,7 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Hallo, Ik ben Audrey 👋🏽",
+        "title": "Hallo, <br>Ik ben Audrey 👋🏽",
         "subtitle": "Frontend Designer/ Developer",
         "description": "Ik help je graag met het ontwerpen en bouwen van unieke, gebruiksvriendelijke websites waar je bezoekers dol op zullen zijn!",
         "contactBtn": "Neem contact op",
@@ -15,7 +15,7 @@
     },
     "about": {
         "title": "Over mij",
-        "bio": "Hey daar! Ik ben Audrey, een 28-jarige student Digital Experience Design uit België met een grote passie voor alles wat creatief is. Als kind bracht ik het grootste deel van mijn tijd door met tekenen, schilderen en knutselen – geïnspireerd door de cartoons waar ik van hield. Mensen zeiden altijd dat ik iets met mijn kunst moest doen, maar ik wist nooit precies wat. Na de middelbare school liet ik mijn creativiteit even los en ging ik werken in de detailhandel... Tot Covid-19 toesloeg. Tijdens de lockdown vond ik mijn creatieve kant terug – en kwam ik toevallig een YouTube-tutorial over coderen tegen. Dat was het moment waarop alles op z’n plek viel! Ik had een manier gevonden om creativiteit te combineren met technologie. Vandaag specialiseer ik mij in front-end development met HTML, CSS en JavaScript om responsieve, gebruiksvriendelijke websites te bouwen. Ik ontwerp met Figma, Illustrator en Blender, en heb ook wat basiskennis van backend ontwikkeld om beter inzicht te krijgen in volledige workflows en effectiever samen te werken in teams. Ik experimenteer graag met nieuwe tools en probeer altijd een nieuwe vaardigheid in elk project te verwerken – of het nu voor school of persoonlijke groei is. Momenteel sta ik open voor stageplaatsen waar ik kan groeien, samenwerken en bijdragen aan echte digitale ervaringen."
+        "bio": "Hoi daar! IK ben Audrey, een 28-jarige Digital Experience Design studente uit Belgie met een grote passie voor alles wat creatief is. Als kind bracht ik het grootste deel van mijn tijd met tekenen, schilderen en knutselen - sterk geinspireerd door de cartoons waar ik van hield. Mensen zeiden vaak dat ik iets moest doen met mijn kunst, maar ik wist nooit goed wat ze daarmee bedoelden. Na de middelbare school zette ik mijn creativiteit even opzij en ging ik in de retail sector werken... tot Covid-19 toesloeg. <br><br>Tijdens de lockdown vond ik mijn creatieve kant terug en stuitte ik toevallig op een Youtube toturial over coderen. Dat was het moment waarop alles klikte! Ik had een manier gevonden om creativiteit te combineren met technologie. Vandaag specialiseer ik me in front-end design met Figma, Illustrator en Blender. Met HTML, CSS en JavaScript bouw ik responsieve en gebruiksvriendelijke websites en heb ook wat basiskennis opgedaan van back-endontwikkeling om de volledige workflows beter te begrijpen en effectiever samen te werken in teams. <br><br>Ik experimenteer graag met nieuwe tools en probeer in elk project een nieuwe vaardigheid toe te passen - of het nu voor school is of voor mijn persoonlijke groei. Momenteel sta ik open voor stageplaatsen waar ik kan groeien, samenwerken en bijdragen aan echte digitale ervaringen."
     },
     "courses": {
         "title": "Opleidingen"

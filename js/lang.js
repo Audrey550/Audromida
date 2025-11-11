@@ -9,7 +9,7 @@ function applyTranslations(translations) {
         const key = element.getAttribute('data-i18n');
         const text = key.split('.').reduce((o, i) => (o ? o[i] : null), translations);
         if (text) {
-            element.innerText = text;
+            element.innerHTML = text;
         }
     });
 }
