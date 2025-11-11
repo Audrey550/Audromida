@@ -202,23 +202,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const parser = new DOMParser();
     const doc = parser.parseFromString(htmlString, 'text/html');
 
+    //Pak de meest recente blogpost
     const firstPost = doc.querySelector('.blogPost');
     if(firstPost){
-        const title = firstPost.querySelector('h3')?.innerText || 'Untitled';
-        const date = firstPost.querySelector('.date')?.innerText || '';
-        const paragraphs = firstPost.querySelectorAll('p');
-        const excerpt = paragraphs.length > 1 ? paragraphs[1].innerText : '';
-        const link = firstPost.querySelector('a')?.getAttribute('href') || 'blog.html';
+      const title = firstPost.querySelector('h3').innerText || "Untitled";
+      const date = firstPost.querySelector('.date').innerText || " ";
+      const excerpt = firstPost.querySelector('[data-i18n$=".preview"]')?.innerText || " ";
+      const link = firstPost.querySelector('a')?.getAttribute('href') || "blog.html";
 
-        latestBlogContainer.innerHTML = `
-        <h2>Blog</h2>
-        <article class="blogPreview">
-          <h3>${title}</h3>
-          <p class="date">${date}</p>
-          <p>${excerpt}</p>
-          <a href= "blog.html">${link === '#' ? 'Read more ->' : 'Read more ->'}</a>
-        </article>
+      latestBlogContainer.innerHTML = `
+      <h2 data-i18n="blog.title">My Blog</h2>
+      <article class="blogPreview">
+      <h3 data-i18n="blog.posts.post3.title">${title}</h3>
+      <p class="date">${date}</p>
+      <p data-i18n="blog.posts.post3.preview">${excerpt}</p>
+      <a href="${link}" data-i18n="blog.readMore">Read More</a>
+      </article>
       `;
+
+      //Vertalingen toepassen
+      if(typeof applyTranslations === 'function' && window.currentTranslations){
+        applyTranslations(window.currentTranslations);
+      }
     }
   })
   .catch(error => {
