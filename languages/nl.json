@@ -10,8 +10,8 @@
         "title": "Hallo, Ik ben Audrey 👋🏽",
         "subtitle": "Frontend Designer/ Developer",
         "description": "Ik help je graag met het ontwerpen en bouwen van unieke, gebruiksvriendelijke websites waar je bezoekers dol op zullen zijn!",
-        "contact": "Neem contact op",
-        "projects": "Bekijk projecten"
+        "contactBtn": "Neem contact op",
+        "projectsBtn": "Bekijk projecten"
     },
     "about": {
         "title": "Over mij",
