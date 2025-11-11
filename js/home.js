@@ -192,45 +192,6 @@ document.addEventListener('DOMContentLoaded', () => {
     lightboxContent.innerHTML = ''; //Cleanup
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const latestBlogContainer = document.getElementById('latestBlog');
-  if(!latestBlogContainer) return;
-
-  fetch('blog.html')
-  .then(response => response.text())
-  .then(htmlString => {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(htmlString, 'text/html');
-
-    //Pak de meest recente blogpost
-    const firstPost = doc.querySelector('.blogPost');
-    if(firstPost){
-      const title = firstPost.querySelector('h3').innerText || "Untitled";
-      const date = firstPost.querySelector('.date').innerText || " ";
-      const excerpt = firstPost.querySelector('[data-i18n$=".preview"]')?.innerText || " ";
-      const link = firstPost.querySelector('a')?.getAttribute('href') || "blog.html";
-
-      latestBlogContainer.innerHTML = `
-      <h2 data-i18n="blog.title">My Blog</h2>
-      <article class="blogPreview">
-      <h3 data-i18n="blog.posts.post3.title">${title}</h3>
-      <p class="date">${date}</p>
-      <p data-i18n="blog.posts.post3.preview">${excerpt}</p>
-      <a href="${link}" data-i18n="blog.readMore">Read More</a>
-      </article>
-      `;
-
-      //Vertalingen toepassen
-      if(typeof applyTranslations === 'function' && window.currentTranslations){
-        applyTranslations(window.currentTranslations);
-      }
-    }
-  })
-  .catch(error => {
-    console.error('Fout bij het laden van de laatste blogpost', error);
-  });
-});
-
 //Contact info popup
 const email = document.getElementById('emailLink');
 const phone = document.getElementById('phoneLink');
@@ -256,31 +217,3 @@ popup.addEventListener('click', (e) => {
   }
 });
 
-//Language - switcher
-const langButtons = document.querySelectorAll("[id^='lang-']");
-let currentLang = localStorage.getItem("lang") || "en";
-
-loadLanguage(currentLang);
-
-  langButtons.forEach(button => {
-    button.addEventListener("click", () => {
-      const selectedLang = button.id.split("-")[1];
-      loadLanguage(selectedLang);
-      localStorage.setItem("lang", selectedLang);
-    });
-});
-
-function loadLanguage(lang){
-  fetch(`languages/${lang}.json`)
-  .then(response => response.json())
-  .then(translations => applyTranslations(translations))
-  .catch(err => console.error("Error loading language file:", err));
-}
-
-function applyTranslations(translations) {
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.getAttribute("data-i18n");
-    const text = key.split('.').reduce((o,i) => o ? o[i] : null, translations);
-    if (text) el.innerHTML = text;
-  });
-}
