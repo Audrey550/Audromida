@@ -187,6 +187,8 @@
     },
     "blog": {
         "title": "Mijn Blog",
+        "readMore": "Lees meer →",
+        "goToPage": "Bekijk alle blogposts",
              "posts": {
                 "post1": {
                     "title": "Hallo! Welkom op mijn blog",
@@ -220,8 +222,7 @@
                     "content5": "Of neem gewoon een dutje. Dutjes zijn geweldig.",
                     "backBtn": "Terug naar Blog"
                 }
-            },
-            "readMore": "Lees meer →"
+            }
         },
 
     "footer": {

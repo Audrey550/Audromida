@@ -21,7 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h3 data-i18n="${titleKey}"></h3>
                         <p class="date">${date}</p>
                         <p data-i18n="${previewKey}"></p>
-                        <a href="${link}" data-i18n="blog.readMore">Read More</a>
+                        <a href="${link}" data-i18n="blog.readMore">Read More</a><br> 
+                        <a href="blog.html" data-i18n="blog.goToPage">View all blog posts</a>
                     </article>
                 `;
 

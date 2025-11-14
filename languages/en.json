@@ -187,7 +187,8 @@
     },
     "blog": {
         "title": "My Blog",
-        "readMoreBtn": "Read more →",
+        "readMore": "Continue reading ->",
+        "goToPage": "View all blog posts",
         "backBtn": "Back to Blog",
             "posts": {
                 "post1": {
@@ -222,8 +223,7 @@
                     "content5": "Or just take a nap. Naps are great.",
                     "backBtn": "Back to Blog"
                 }
-            },
-            "readMore": "Read more →"
+            }        
         },
     "footer": {
         "text": "© 2025 Audromida Designs. All rights reserved."
