@@ -55,15 +55,15 @@
         "title": "Diensten",
         "uiux":{
             "title": "UI/ UX Design:",
-            "desc": "Ik creëer gebruiksvriendelijke ontwerpen die zowel gemakkelijk te gebruiken als visueel aantrekkelijk zijn."
+            "desc": "Ik ontwerp gebruiksvriendelijke en visueel aantrekkelijke interfaces die aansluiten bij de behoeften van je doelgroep. Mijn focus ligt op duidelijke structuur, intuïtieve interacties en een soepele gebruikerservaring."
         },
         "frontend": {
             "title": "Frontend Development",
-            "desc": "Ik bouw responsieve, snel ladende websites en apps met HTML, CSS en JavaScript."
+            "desc": "Ik bouw moderne, responsieve en snel presterende websites en webapplicaties met HTML, CSS en JavaScript. Ik vertaal ontwerpen naar functionele, hoogwaardige digitale producten."
         },
         "3d": {
             "title": "3D Design:",
-            "desc": "Ik creëer 3D-modellen en animaties met Blender en breng ideeën tot leven."
+            "desc": "Ik creëer gedetailleerde 3D-modellen, visualisaties en animaties met Blender. Van concept tot eindrendering breng ik ideeën tot leven met realistische of gestileerde 3D-beelden."
         }
     }, 
     "projects": {
