@@ -209,7 +209,7 @@ h3, p, a{
     align-items: center;
     padding: 65px 250px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 80px;
 }
 
@@ -283,16 +283,6 @@ h3, p, a{
     margin-bottom: 2rem;
 }
 
-.hero-btns {
-    display: flex;
-    gap: 1.2rem;
-}
-
-.hero-btns a:hover{
-    background-color: var(--white);
-    color: var(--purple);
-}
-
 .btn{
     background-color: var(--purple);
     color: var(--white);
@@ -300,6 +290,12 @@ h3, p, a{
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
+    margin-right: 1rem;
+}
+
+.btn:hover{
+    background-color: var(--white);
+    color: var(--purple);
 }
 
 .hero-image img{
@@ -368,7 +364,7 @@ main h2{
 
 #latestBlog h2{
     color: var(--pink);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 28px;
 }
 
@@ -530,29 +526,89 @@ main h2{
 .skill.pho { width: 55%; background-color: #31a8ff;}
 
 /*Services section*/
-.services{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
-    gap: 20px;
-    margin-bottom: 80px;
-}
-
 .services h2{
-    grid-column: 1 / -1; /* Makes the heading span all columns */
-        color: var(--pink);
-    text-align: left;
-    margin-bottom: 20px;
+    color: var(--pink);
+    margin-bottom: 40px;
 }
 
-.services h3 {
-    margin-bottom: 10px;   
-}
-
- .service {
+.service{
     background-color: var(--purple);
-    padding: 20px;
-    border-radius: 8px;
+    margin-bottom: 80px;
+    border-radius: 12px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-wrapper img{
+    width: 160px;
+    transition: 0.3s ease;
+}
+
+.text-wrapper{
+    color: var(--white);
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    opacity: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    transform: translateX(-50%) translateY(20px);
+    z-index: 2;
+}
+
+.text-wrapper h3{
+    margin-bottom: 10px;
+}
+
+.text-wrapper p{
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 5px;
+}
+
+.service:hover .text-wrapper{
+    opacity: 1;
+    transform: translateX(-50%) translateY(0px);
+}
+
+.service:hover .icon-wrapper img{
+    transform: scale(0.6) translate(-20px);
+}
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: 0.3s ease;
+    pointer-events: none; /*Voorkomt klikproblemen*/
+    z-index: 1;
+}
+
+.service:hover .overlay{
+    opacity: 1;
 }
 
 /*Projects section*/
@@ -576,7 +632,7 @@ main h2{
 
 .projects h2{
     color: var(--pink);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .project-info{
@@ -739,6 +795,10 @@ main h2{
     padding-bottom: 3.2px;
 }
 
+.project-btns{
+    margin-bottom: 40px;
+}
+
 .project-btns a{
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -885,7 +945,7 @@ main h2{
 footer{
     background-color: var(--darkpurple);
     text-align: center;
-    padding: 15px 0;
+    padding: 30px 0;
     position: relative;
     bottom: 0;
     width: 100%;
