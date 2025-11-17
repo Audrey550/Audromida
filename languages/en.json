@@ -187,7 +187,7 @@
     },
     "blog": {
         "title": "My Blog",
-        "readMore": "Continue reading ->",
+        "readMore": "Continue reading →",
         "goToPage": "View all blog posts",
         "backBtn": "Back to Blog",
             "posts": {
