@@ -54,28 +54,39 @@
         <section class="blog">
             <h2 data-i18n="blog.title">My Blog</h2>
 
-            <article class="blogPost">
+            <section class="blogFilters">
+                <input type="text" id="blogSearchInput" placeholder="Search blog posts ...">
+
+                <select id="categoryFilter">
+                    <option value="">All catergories</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Webdesign">Webdesign</option>
+                    <option value="Programming">Programming</option>
+                </select>
+            </section>
+
+            <article class="blogPost" data-category="Webdesign">
                 <h3 data-i18n="blog.posts.post3.title">Struggles of a webdesigner</h3>
                 <p class="date">22-10-2025</p>
-                <p data-i18n="blog.posts.post3.preview">
+                <p class="preview"data-i18n="blog.posts.post3.preview">
                     When I tell someone I study Digital Experience Design, the most common response I get is: "Oh, so you work with computers?" and yeah, that's true, but it's way more than that. A big part of my study is learning how to design and code websites and apps which I absolutely love doing. However, one of the biggest struggles I face as a webdesigner is the creative block ...
                 </p>
                 <a href="blog-posts/blog-post3.html" data-i18n="blog.readMore">Read more →</a>
             </article>
 
-            <article class="blogPost">
+            <article class="blogPost" data-category="Programming">
                 <h3 data-i18n="blog.posts.post2.title">Why I started programming</h3>
                 <p class="date">07-10-2025</p>
-                <p data-i18n="blog.posts.post2.preview">
+                <p class="preview" data-i18n="blog.posts.post2.preview">
                     So you want to know why I started programming huh? Well, it all started when I was born. ... Nah, just kidding! The real story takes place a few years later than that. I've always been a fairly creative person, partially because of my health issues that kept me indoors throughout my entire childhood. I had to look for ways to entertain myself that weren't just watching TV all day. Fortunately, I was a very imaginative kid, so I started drawing ...
                 </p>
                 <a href="blog-posts/blog-post2.html" data-i18n="blog.readMore">Read more →</a>
             </article>
 
-            <article class="blogPost">
+            <article class="blogPost" data-category="Personal">
                 <h3 data-i18n="blog.posts.post1.title">Hi there! Welcome to my blog</h3>
                 <p class="date">05-10-2025</p>
-                <p data-i18n="blog.posts.post1.preview">
+                <p class="preview" data-i18n="blog.posts.post1.preview">
                     Why hello there and welcome to my blog! I'm very happy you decided to stop by and read my very first blog post here on Audromida. This blog is a place where you can follow my journey from a overly exited Digital Design 3rd year student to a professional webdesigner/developer. I'll write about the projects I'm working on, new things I learned, I'll even write about aswell as my intern ship that I'm doing next semester so look forward to that 👀 ...
                 </p>
                 <a href="blog-posts/blog-post1.html" data-i18n="blog.readMore">Read more →</a>
@@ -91,7 +102,8 @@
 
     <script src="/js/home.js"></script>
     <script src="/js/blogPreview.js"></script>
-    <script src="/js/lang.js"></script>
+    <script src="/js/lang.js"></script> 
+    <script src="/js/blogFilter.js"></script>
 
 </body>
 </html>
