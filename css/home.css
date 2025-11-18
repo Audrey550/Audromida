@@ -879,6 +879,12 @@ main h2{
     padding: 20px;
     border-radius: 8px;
     text-align: center;
+    transition: all 0.2s ease;
+}
+
+.contact-info:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 2px 20px #FF398F; /*volgorde = horizontale - verticale - blur breedte*/
 }
 
 .contact-info a{
