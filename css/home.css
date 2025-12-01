@@ -852,13 +852,17 @@ main h2{
 
 .modalContent h3{
     margin-top: 0;
-    color: var(--lightpurple);
+    color: var(--pink);
 }
 
-.modalContent a{
+.modalContent strong{
     color: var(--lightpurple);
-    text-decoration: underline;
 }
+.modalContent a{
+    color: var(--white);
+}
+
+
 
 .close{
     color: var(--white);
