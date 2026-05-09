@@ -6,7 +6,26 @@
     --white: #ffffff;
     --black: #000000;
 
-    /*Main website colors*/
+    /*Core UI colors*/
+    /*Main background: soft lilac-white
+    Secondary background: pale lavender
+    Cards: cool periwinkle
+    Primary text: dark plum
+    Secondary text: muted lavender gray*/
+
+    /*Brand/ Interactive colors*/
+    /*Primary CTA: royal violet
+    Hover state: violet -> pink gradient
+    Links: saturated purple
+    Active nav: magenta-violet*/
+
+    /*Decorative colors*/
+    /*Glow effect: pinks/lilacs
+    Hero gradient: blue -> lilac -> pink
+    Tiny highlights: fairy yellow*/
+
+
+
     --pink: #FF398F;
     --purple: #420D4A;
     --lightpurple: #9d849d;
