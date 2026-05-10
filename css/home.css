@@ -5,27 +5,18 @@
 
     --white: #ffffff;
     --black: #000000;
+    --Body-Text: #1f1b2e;
+
 
     /*Core UI colors*/
-    /*Main background: soft lilac-white
-    Secondary background: pale lavender
-    Cards: cool periwinkle
-    Primary text: dark plum
-    Secondary text: muted lavender gray*/
+    --Background-base: #fff3f0;
+    --Surface-Cards: #ffd6ff;
+    --Primary-color: #5843b3;
+    --Secondary-color: #b9c0ff;
+    --Primary-CTA: #f487b6;
+    --Accent-Microinteractions: #fde12d;
 
-    /*Brand/ Interactive colors*/
-    /*Primary CTA: royal violet
-    Hover state: violet -> pink gradient
-    Links: saturated purple
-    Active nav: magenta-violet*/
-
-    /*Decorative colors*/
-    /*Glow effect: pinks/lilacs
-    Hero gradient: blue -> lilac -> pink
-    Tiny highlights: fairy yellow*/
-
-
-
+    /*Old colors*/
     --pink: #FF398F;
     --purple: #420D4A;
     --lightpurple: #9d849d;
@@ -91,7 +82,7 @@ html{
 }
 
 body{
-    background: linear-gradient(60deg, #000000, #210535, #3A0A35);
+    background: linear-gradient(60deg, #5843b3, #b9c0ff, #ffd6ff);
     color: var(--white);
     margin: 0;
 }
@@ -153,7 +144,7 @@ h3, p, a{
     align-items: center;
     padding: 0 20px;
     height: 60px;
-    background-color: var(--darkpurple);
+    background-color: var(--Primary-color);
     position: relative;
     z-index: 999;
 }
@@ -161,7 +152,7 @@ h3, p, a{
  .navLogo{
     font-size: 22px;
     font-weight: bold;
-    color: var(--white);
+    color: var(--Primary-CTA);
 }
 
 .navLinks{
@@ -171,14 +162,14 @@ h3, p, a{
 
 .navBar a{
     text-decoration: none;
-    color: var(--white);
+    color: var(--Primary-CTA);
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
 }
 
 .navBar a:hover{
-    color: var(--lightpurple);
+    color: var(--pink);
     transform: scale(1.1);
 }
 
@@ -205,25 +196,24 @@ h3, p, a{
 }
 
 .language-switcher button{
-    background: var(--pink);
-    border: 2px solid var(--purple);
-    color: var(--white);
+    background: var(--Primary-CTA);
+    font-weight: bold;
+    color: var(--Body-Text);
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
 }
 
 .language-switcher button:hover{
-    background-color: var(--white);
-    color: var(--purple);
+    background: var(--white);
+    color: var(--Body-Text);
 }
 
 /*Header*/
 .hero{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(10px);
     align-items: center;
     padding: 65px 250px;
@@ -303,8 +293,8 @@ h3, p, a{
 }
 
 .btn{
-    background-color: var(--purple);
-    color: var(--white);
+    background-color: var(--Primary-CTA);
+    color: var(--Body-Text);
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     border-radius: 25px;
@@ -314,14 +304,14 @@ h3, p, a{
 
 .btn:hover{
     background-color: var(--white);
-    color: var(--purple);
+    color: var(--Body-Text);
 }
 
 .hero-image img{
     position: relative;
     width: 300px;
     border-radius: 12px;
-    box-shadow: 20px 20px 2px 1px rgba(138, 138, 138, 0.2);
+    box-shadow: 20px 20px 2px 1px rgba(138, 138, 138, 0.5);
     z-index: 1;
 }
 
@@ -361,7 +351,7 @@ main h2{
 .bio {
     flex: 1;
     min-width: 300px;
-    color: var(--white);
+    color: var(--Body-Text);
     background-color: transparent;
     margin-bottom: 20px;
 }
@@ -442,7 +432,7 @@ main h2{
 .courses {
     flex: 1;
     font-size: 18px;
-    background-color: var(--purple);
+    background-color: var(--Primary-color);
     padding: 30px;
     padding-bottom: 50px;
     border-radius: 8px;
@@ -911,7 +901,7 @@ main h2{
 }
 
  .contact-info {
-    background-color: var(--purple);
+    background-color: var(--Surface-Cards);
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -920,7 +910,7 @@ main h2{
 
 .contact-info:hover{
     transform: translateY(-5px);
-    box-shadow: 0 2px 20px #FF398F; /*volgorde = horizontale - verticale - blur breedte*/
+    box-shadow: 0 2px 20px var(--Primary-CTA); /*volgorde = horizontale - verticale - blur breedte*/
 }
 
 .contact-info a{
@@ -959,9 +949,9 @@ main h2{
 }
 
 .popup-content{
-    background-color: var(--purple);
-    border: 5px solid var(--lightpurple);
-    color: var(--white);
+    background-color: var(--Primary-CTA);
+    border: 5px solid var(--white);
+    color: var(--black);
     padding: 30px;
     border-radius: 12px;
     max-width: 500px;
@@ -984,7 +974,7 @@ main h2{
 
 /*Footer*/
 footer{
-    background-color: var(--darkpurple);
+    background-color: var(--Primary-color);
     text-align: center;
     padding: 15px 0;
     position: relative;
@@ -1054,7 +1044,7 @@ footer{
         flex-direction: column;
         width: 100%;
         padding: 10px 0;
-        background-color: var(--darkpurple);
+        background-color: var(--Primary-color);
     }
 
     .navLinks a{
