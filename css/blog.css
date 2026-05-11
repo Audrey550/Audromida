@@ -6,7 +6,15 @@
     --white: #ffffff;
     --black: #000000;
 
-    /*Main website colors*/
+    /*Core UI colors*/
+    --Background-base: #fff3f0;
+    --Surface-Cards: #ffd6ff;
+    --Primary-color: #5843b3;
+    --Secondary-color: #b9c0ff;
+    --Primary-CTA: #f487b6;
+    --Accent-Microinteractions: #fde12d;
+    
+    /*Old colors*/
     --pink: #FF398F;
     --purple: #420D4A;
     --lightpurple: #9d849d;
@@ -48,7 +56,7 @@ html{
 }
 
 .blogPost{
-    background-color: var(--purple);
+    background-color: var(--Primary-color);
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -88,7 +96,7 @@ body.blogPage .blogLink, .singleBlogPost .blogLink{
 
 /*A full blog post*/
 .fullPost{
-    background-color: var(--purple);
+    background-color: var(--Primary-color);
     padding: 40px;
     border-radius: 12px;
     max-width: 800px;
@@ -157,7 +165,7 @@ body.blogPage .blogLink, .singleBlogPost .blogLink{
 
 /*Footer*/
 footer{
-    background-color: var(--purple);
+    background-color: var(--Primary-color);
     position: relative;
     overflow: hidden;
 }

@@ -366,9 +366,6 @@ main h2{
     margin-bottom: 80px;
     margin: 60px auto;
     padding: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 12px;
-    box-shadow: 0 0 15px rgva(0, 0, 0, 0.2);
 }
 
 #latestBlog h2{
@@ -378,7 +375,7 @@ main h2{
 }
 
 .blogPreview{
-    background-color: var(--purple);
+    background-color: var(--Primary-color);
     padding: 25px;
     border-radius: 10px;
 }
@@ -481,9 +478,9 @@ main h2{
 .tab-btn{
     padding: 8px 16px;
     font-size: 16px;
-    background-color: var(--darkpurple);
+    background-color: var(--Primary-CTA);
     border: none;
-    color: var(--white);
+    color: var(--Body-Text);
     font-weight: bold;
     border-radius: 25px;
     cursor: pointer;
@@ -554,7 +551,7 @@ main h2{
 }
 
 .service{
-    background-color: var(--purple);
+    background-color: var(--Primary-color);
     margin-bottom: 80px;
     border-radius: 12px;
     text-align: center;
@@ -658,14 +655,17 @@ main h2{
 }
 
 .project-info{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--Primary-color);
     backdrop-filter: blur(10px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     position: relative;
+}
+
+.project-info h3{
+    color: var(--white);
 }
 
 .color-palette {
@@ -683,7 +683,6 @@ main h2{
     cursor: default;
     font-family: Arial, sans-serif;
     font-size: 14px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .font-families{
@@ -778,7 +777,7 @@ main h2{
 }
 
 .project-info p{
-    color: var(--lightpurple);
+    color: var(--white);
 }
 
 .project-info img{
@@ -796,7 +795,8 @@ main h2{
 
 .project-list a{
     padding: 1rem;
-    color: var(--white);
+    color: var(--Body-Text);
+    font-weight: bold;
     text-decoration: none;
     line-height: 1.2;
 }
@@ -813,9 +813,10 @@ main h2{
 }
 
 .project-list a:hover{
-    border-bottom: 2px solid var(--white);
+    border-bottom: 2px solid var(--Body-Text);
     padding-bottom: 3.2px;
 }
+
 
 .project-btns{
     margin-bottom: 40px;
@@ -824,16 +825,18 @@ main h2{
 .project-btns a{
     padding: 0.5rem 1rem;
     text-decoration: none;
-    background-color: var(--purple);
+    background-color: var(--Primary-CTA);
+    color: var(--Body-Text);
     font-size: 18px;
-    color: var(--white);
+    font-weight: bold;
     margin-right: 1rem;
     border-radius: 25px;
 }
 
 .project-btns a:hover{
     background-color: var(--white);
-    color: var(--purple);
+    color: var(--Body-Text);
+    font-weight: bold;
 }
 
 /*Modals for Ben & Sam*/
@@ -870,8 +873,6 @@ main h2{
 .modalContent a{
     color: var(--white);
 }
-
-
 
 .close{
     color: var(--white);
@@ -926,6 +927,7 @@ main h2{
     grid-column: 1 / -1;
     text-align: center;
     font-size: 18px;
+    color: var(--Body-Text);
 }
 
 .contact h3 {
