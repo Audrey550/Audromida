@@ -82,7 +82,7 @@ html{
 }
 
 body{
-    background: linear-gradient(60deg, #5843b3, #b9c0ff, #ffd6ff);
+    background: linear-gradient(60deg, #b9c0ff, #b9c0ff, #5843b3);
     color: var(--white);
     margin: 0;
 }
@@ -901,7 +901,7 @@ main h2{
 }
 
  .contact-info {
-    background-color: var(--Surface-Cards);
+    background-color: var(--Primary-color);
     padding: 20px;
     border-radius: 8px;
     text-align: center;
