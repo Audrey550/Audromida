@@ -7,15 +7,15 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Hallo, <br>Ik ben Audrey 👋🏽",
-        "subtitle": "Frontend Designer/ Developer",
-        "description": "Ik help je graag met het ontwerpen en bouwen van unieke, gebruiksvriendelijke websites waar je bezoekers dol op zullen zijn!",
+        "title": "Welkom in mijn digitale droomwereld ✨",
+        "subtitle": "UX/UI & Front-end Designer",
+        "description": "Van speelse concepten tot verfijnde digitale ervaringen, ik combineer creatief ontwerp met front-end development om websites te creëren die intuïtief en memorabel zijn, en die prettig in het gebruik zijn.",
         "contactBtn": "Neem contact op",
         "projectsBtn": "Bekijk projecten"
     },
     "about": {
         "title": "Over mij",
-        "bio": "Hoi daar! IK ben Audrey, een Digital Experience Design studente uit Belgie met een grote passie voor alles wat creatief is. Als kind bracht ik het grootste deel van mijn tijd met tekenen, schilderen en knutselen - sterk geinspireerd door de cartoons waar ik van hield. Mensen zeiden vaak dat ik iets moest doen met mijn kunst, maar ik wist nooit goed wat ze daarmee bedoelden. Na de middelbare school zette ik mijn creativiteit even opzij en ging ik in de retail sector werken... tot Covid-19 toesloeg. <br><br>Tijdens de lockdown vond ik mijn creatieve kant terug en stuitte ik toevallig op een Youtube toturial over coderen. Dat was het moment waarop alles klikte! Ik had een manier gevonden om creativiteit te combineren met technologie. Vandaag specialiseer ik me in front-end design met Figma, Illustrator en Blender. Met HTML, CSS en JavaScript bouw ik responsieve en gebruiksvriendelijke websites en heb ook wat basiskennis opgedaan van back-endontwikkeling om de volledige workflows beter te begrijpen en effectiever samen te werken in teams. <br><br>Ik experimenteer graag met nieuwe tools en probeer in elk project een nieuwe vaardigheid toe te passen - of het nu voor school is of voor mijn persoonlijke groei. Momenteel sta ik open voor stageplaatsen waar ik kan groeien, samenwerken en bijdragen aan echte digitale ervaringen."
+        "bio": "Hoi, ik ben Audrey 🌸<br> Ik ben een student Digital Experience Design uit België die graag creativiteit combineert met code. Geïnspireerd door tekenfilms, games en speels design, maak ik graag digitale projecten die zowel visueel aantrekkelijk als gebruiksvriendelijk zijn.<br><br> Creatief bezig zijn is altijd een deel van mij geweest. Als kind kon ik uren tekenen, schilderen en knutselen. Toen ik oud genoeg was om het internet te ontdekken, raakte ik gefascineerd door kleurrijke websites zoals BarbieGirls en MyScene. Ik herinner me dat ik me afvroeg: 'Hoe maken mensen dit? Zou ik dit ook kunnen maken?' Die kleine gedachte is jarenlang bij me gebleven.<br><br> Tijdens de lockdown kwam ik op een kruispunt terecht. Het deed me beseffen dat twee dingen belangrijk waren: het leven is te kort om te blijven denken 'wat als?' en ik wilde een carrière waarin ik elke dag creatief bezig kon zijn. Daarom zette ik een sprong in het diepe, schreef ik me in voor een opleiding grafisch ontwerp en keek ik nooit meer achterom.<br><br> Vandaag ontwerp ik interfaces in Figma en breng ik ze tot leven met HTML, CSS en JavaScript. Zo creëer ik responsieve websites die niet alleen mooi zijn om naar te kijken, maar ook fijn zijn om te gebruiken. Daarnaast werk ik graag met Illustrator en Blender om extra creativiteit en persoonlijkheid aan mijn projecten toe te voegen. Ik ben altijd op zoek naar nieuwe uitdagingen en kansen om verder te groeien als designer en developer.<br><br> Mijn doel is om de verwondering die ik als kind voelde toen ik het internet voor het eerst ontdekte opnieuw te creëren. Ik wil digitale ervaringen maken die simpelweg functioneel én leuk zijn.<br><br> Momenteel ben ik op zoek naar een stageplek waar ik kan groeien als front-end designer, kan samenwerken met andere creatieve mensen en kan bijdragen aan projecten die een verschil maken. Heb je een kans die aansluit bij mijn vaardigheden en passie? Dan hoor ik graag van je!"
     },
     "courses": {
         "title": "Opleidingen"
@@ -172,9 +172,9 @@
     "contact": {
         "title": "Contact",
         "emailLabel": "Email:",
-        "emailLink": "Klik hier",
+        "emailLink": "au3ke001@hotmail.com",
         "phoneLabel": "Telefoon nr:",
-        "phone": "/",
+        "phone": "+32 472 64 71 03",
         "linkedInLabel": "LinkedIn",
         "linkedin": "Audrey Designs",
         "extraLabel": "Extra:",

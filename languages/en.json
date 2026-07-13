@@ -7,15 +7,15 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Hey, I am Audrey 👋🏽",
-        "subtitle": "Frontend Designer/ Developer",
-        "description": "I can help you design and build unique and user-friendly websites your users will love!",
+        "title": "Welcome to my digital dreamscape ✨",
+        "subtitle": "UX/UI & Front-end Designer",
+        "description": "From playful concepts to polished digital experiences, I combine creative design and front-end development to create websites that are intuitive, memorable and fun to use.",
         "contactBtn": "Get in touch",
         "projectsBtn": "Browse Projects"
     },
     "about": {
         "title": "About me",
-        "bio": "Hey there! I'm Audrey, a Digital Experience Design student based in Belgium with a big passion for all things creative. Growing up, I spent most of my time drawing, painting, and crafting - heavily inspired by the cartoons I loved. People always told me to do something with my art, but I wasn't sure what that meant. After highschool, I put creativity aside and worked in retail... Until Covid-19 hit. <br><br>During lockdown, I reconnected with my creative side - and stumbled upon a YouTube tutorial about coding. That was the moment it all clicked! I'd found a way to combine creativity with technoligy. Today, I specialize in front-end design using Figma, Illustrator and Blender. With HTML, CSS and JavaScript I build responsive, user-friendly websites, and I've also explored some backend basics to better understand full workflows and work more effectively in teams. <br><br>I love experimenting with new tools and always try to bring a fresh skill into every project - wether it's for school or personal growth. I'm currently open to intership opportunities where I can grow, collaborate, and contribute to real-world digital experiences."
+        "bio": "Hi, I'm Audrey 🌸<br> I'm a Digital Experience Design student from Belgium who loves combining creativity with code. Inspired by cartoons, games and playful design, I enjoy creating digital projects that are both visually appealing and user-friendly.<br><br> Creating has always been a part of who I am. As a kid, I spent hours drawing, painting and crafting. Once I was old enough to explore the internet, I became fascinated by colourful websites like BarbieGirls and MyScene. I remember wondering: 'How do people make these? Can I make one too?' That little thought stayed with me for years.<br><br> During the lockdown, I found myself at a crossroads. It made me realise two things: life is too short to keep wondering 'what if?', and I wanted to pursue a career where I could create every day. So I took a leap of faith, enrolled in a graphic design course, and never looked back.<br><br> Today, I design interfaces in Figma and bring them to life with HTML, CSS and JavaScript, creating responsive websites that are as enjoyable to use as they are to look at. I also enjoy working with Illustrator and Blender, using them to add extra creativity and personality to my projects. I'm always looking for new challenges and opportunities to grow as a designer and developer.<br><br> I aim to recreate the joy I felt as a kid when I first discovered the internet, by creating digital experiences that are simply put functional and fun.<br><br> Currently, I'm looking for an internship where I can grow as a front-end designer, collaborate with other creative people and contribute to projects that make a difference. If you have an opportunity that aligns with my skills and passion, I would love to hear from you!"
     },
     "courses": {
         "title": "Courses"
@@ -172,9 +172,9 @@
     "contact": {
         "title": "Contact",
         "emailLabel": "Email:",
-        "emailLink": "Click here",
+        "emailLink": "au3ke001@hotmail.com",
         "phoneLabel": "Phone nr:",
-        "phone": "/",
+        "phone": "+32 472 64 71 03",
         "linkedInLabel": "LinkedIn",
         "linkedin": "Audrey Designs",
         "extraLabel": "Extra:",
