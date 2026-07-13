@@ -77,7 +77,7 @@
                 "devLabel": "Development:",
                 "dev": "Vue 3, Vite, Supabase, Three.js",
                 "descLabel": "Description",
-                "description": "Noek Memorial is a digital memorial platform where family and friends can create, visit and share memories of their loved ones. The goal of this project was to create a meaningful and interactive environment where users can preserve memories in a personal way. Users can create and customize memorial rooms, invite others to contribute and explore these spaces through the 3D environment. The platform includes different user roles, the choice to make the room private or public, invitation-based access and cloud-based storage using Supabase.",
+                "description": "Noek Memorial is a digital memorial platform developed as a group project, where family and friends can create, visit and share memories of their loved ones. The goal of this project was to create a meaningful and interactive environment where users can preserve memories in a personal way. Users can create and customize memorial rooms, invite others to contribute and explore these spaces through the 3D environment. The platform includes different user roles, the choice to make the room private or public, invitation-based access and cloud-based storage using Supabase.",
                 "color-palette-title": "Color Palette:",
                 "typography-title": "Typography:",
                 "teamLabel": "Meet the team:",
