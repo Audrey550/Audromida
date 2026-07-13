@@ -137,18 +137,16 @@ hamburger.addEventListener('click', function(){
 });
 
 
-//Modals voor Ben & Sam
+//Modals voor teamleden
 document.addEventListener('DOMContentLoaded', () => {
 //Open modal als je op een naam klikt 
-  document.querySelectorAll('.infoLinks').forEach(link => {
+  document.querySelectorAll('.infoLinks[data-modal]').forEach(link => {
     link.addEventListener('click', function(e){
-      const name = this.textContent.trim().toLowerCase();
-      if(name.includes('ben devos')) {
       e.preventDefault();
-      document.getElementById('modal-ben').style.display = 'block';
-      } else if (name.includes('sam pittois')) {
-      e.preventDefault();
-      document.getElementById('modal-sam').style.display = 'block';
+      const modalId = this.getAttribute('data-modal');
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.style.display = 'block';
       }
     });
   });

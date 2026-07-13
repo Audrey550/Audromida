@@ -878,7 +878,7 @@ main h2{
 }
 
 .modalContent strong{
-    color: var(--lightpurple);
+    color: var(--white);
 }
 .modalContent a{
     color: var(--white);
