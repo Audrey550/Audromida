@@ -12,6 +12,14 @@ function applyTranslations(translations) {
             element.innerHTML = text;
         }
     });
+
+    const currentLang = localStorage.getItem("lang") || "en";
+    const cvLink = document.querySelector('.cv-link');
+    if (cvLink) {
+        cvLink.href = currentLang === 'nl'
+            ? (cvLink.dataset.resumeNl || cvLink.href)
+            : (cvLink.dataset.resumeEn || cvLink.href);
+    }
 }
 
 //Laad vertalingen van JSON-bestand
