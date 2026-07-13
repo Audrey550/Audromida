@@ -7,7 +7,7 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Welkom in mijn digitale droomwereld ✨",
+        "title": "Welkom in mijn digitale&nbsp;droomwereld ✨",
         "subtitle": "UX/UI & Front-end Designer",
         "description": "Van speelse concepten tot verfijnde digitale ervaringen, ik combineer creatief ontwerp met front-end development om websites te creëren die intuïtief en memorabel zijn, en die prettig in het gebruik zijn.",
         "contactBtn": "Neem contact op",
@@ -55,15 +55,15 @@
         "title": "Diensten",
         "uiux":{
             "title": "UI/ UX Design:",
-            "desc": "Ik ontwerp gebruiksvriendelijke en visueel aantrekkelijke interfaces die aansluiten bij de behoeften van je doelgroep. Mijn focus ligt op duidelijke structuur, intuïtieve interacties en een soepele gebruikerservaring."
+            "desc": "Ik ontwerp gebruiksvriendelijke en visueel aantrekkelijke interfaces die creativiteit combineren met gebruiksvriendelijkheid. Mijn focus ligt op duidelijke layouts, vloeiende interacties en gebruiksvriendelijke digitale ervaringen die aangenaam zijn voor de gebruiker."
         },
         "frontend": {
             "title": "Frontend Development",
-            "desc": "Ik bouw moderne, responsieve en snel presterende websites en webapplicaties met HTML, CSS en JavaScript. Ik vertaal ontwerpen naar functionele, hoogwaardige digitale producten."
+            "desc": "Ik bouw responsieve en interactieve websites met HTML, CSS en JavaScript. Ik vertaal ontwerpen naar functionele digitale producten met aandacht voor presentaties, structuur en visuele kwaliteit."
         },
         "3d": {
             "title": "3D Design:",
-            "desc": "Ik creëer gedetailleerde 3D-modellen, visualisaties en animaties met Blender. Van concept tot eindrendering breng ik ideeën tot leven met realistische of gestileerde 3D-beelden."
+            "desc": "Ik creëer 3D-modellen, visualisaties en animaties met behulp van Blender. Ik breng creatieve concepten tot leven door middel van gedetailleerde modellering en rendering."
         }
     }, 
     "projects": {

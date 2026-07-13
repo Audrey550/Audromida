@@ -7,7 +7,7 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Welcome to my digital dreamscape ✨",
+        "title": "Welcome to my digital&nbsp;dreamscape ✨",
         "subtitle": "UX/UI & Front-end Designer",
         "description": "From playful concepts to polished digital experiences, I combine creative design and front-end development to create websites that are intuitive, memorable and fun to use.",
         "contactBtn": "Get in touch",
@@ -55,15 +55,15 @@
         "title": "Services",
         "uiux":{
             "title": "UI/ UX Design:",
-            "desc": "I design user-friendly and visually engaging interfaces that align with your audiance's needs. My focus is on clear structure, intuative interactions, and a smooth user experience."
+            "desc": "I create intuitive and visually engaging interfaces that combine creativity with usability. My focus is on clear layouts, smooth interactions and user-friendly digital experiences."
         },
         "frontend": {
             "title": "Frontend Development",
-            "desc": "I build modern, responsive, and fast-performing websites and web applications using HTML, CSS and JavaScript. I translate designs into functional, high-quality digital products."
+            "desc": "I build responsive and interactive websites using HTML, CSS and JavaScript I transform designs into functional digital products with a focus on performance, structure and visual quality."
         },
         "3d": {
             "title": "3D Design:",
-            "desc": "I create detailed 3D models, visualizations, and animations using Blender. From concept to final render, I bring ideas to life with realistic or stylized 3D visuals."
+            "desc": "I create 3D models, visualizations and animations using Blender. I bring creative concepts to life through detailed modeling and rendering."
         }
     }, 
     "projects": {

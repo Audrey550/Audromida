@@ -282,13 +282,14 @@ h3, p, a{
 
 .hero-text{
     position: relative;
-    width: 400px;
+    width: min(520px, 100%);
     z-index: 1;
 }
 
 .hero-text h1{
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+    line-height: 1.05;
 }
 
 .hero h2{
@@ -320,8 +321,10 @@ h3, p, a{
 .hero-image img{
     position: relative;
     width: 300px;
-    border-radius: 12px;
-    box-shadow: 20px 20px 2px 1px rgba(138, 138, 138, 0.2);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 20px 10px 0 1px rgba(138, 138, 138, 0.2);
     z-index: 1;
 }
 
@@ -1033,9 +1036,13 @@ footer{
         text-align: center;
     }
 
+    .hero-text{
+        width: 100%;
+    }
+
     .hero-image img{
         margin-top: 20px;
-        max-width: 250px;
+        width: min(250px, 70vw);
     }
 
     .navBar{
