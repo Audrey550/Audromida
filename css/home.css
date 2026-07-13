@@ -290,6 +290,7 @@ h3, p, a{
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     line-height: 1.05;
+    color: var(--pink);
 }
 
 .hero h2{
