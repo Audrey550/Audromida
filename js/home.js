@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //Contact info popup
-const email = document.getElementById('emailLink');
+/*const email = document.getElementById('emailLink');
 const phone = document.getElementById('phoneLink');
 const popup = document.getElementById('contactPopup');
 const closePopup = document.getElementById('closePopup');
@@ -215,5 +215,5 @@ popup.addEventListener('click', (e) => {
   if(e.target === popup){
     closeContactPopup();
   }
-});
+});*/
 
